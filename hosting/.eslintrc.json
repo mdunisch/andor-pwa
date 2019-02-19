@@ -1,0 +1,21 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "vue/no-v-html": false,
+        "vue/html-self-closing": false,
+        "vue/max-attributes-per-line": false,
+        "vue/singleline-html-element-content-newline": false
+    },
+    "overrides": [
+        {
+            "files": [ "your/globs/**/*.js" ]
+        }
+    ]
+}
