@@ -1,10 +1,12 @@
-html, body {
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
     height: 100%;
     margin: 0;
-
-    /* Print right */
-    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
-    color-adjust: exact !important;                 /*Firefox*/
 }
 
 body {
@@ -12,11 +14,6 @@ body {
 }
 
 
-@media print{
-    body{
-        zoom:100%
-    }
-}
 
 @import './loading_spinner.css';
 
