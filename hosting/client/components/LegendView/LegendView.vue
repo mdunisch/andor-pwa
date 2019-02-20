@@ -28,7 +28,7 @@ export default {
     }
   },
   methods: {
-    changeLegend(e) {
+    changeLegend() {
       this.$router.push('home');
     }
   }
