@@ -53,6 +53,11 @@ export default new Vuex.Store({
       .cards
       .find(cards => cards.name === cardname)
       .seen = true;
+
+      state.ui.openCard = cardname;
+    },
+    closeCard(state){
+      state.ui.openCard = false;
     }
   },
   getters: {

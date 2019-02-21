@@ -9,10 +9,10 @@
         size="large"
         class="cardbtn"
         :type="card.seen ? 'primary': 'secondary'"
-        @click="opencard(card.name)"
+        @click="handleOpenCard(card.name)"
       >{{ card.name }}</ui-button>
     </div>
-    <hr>
+    <hr v-if="cards.filter(i => i.type ==='custom').length !== 0">
     <div style="display: flex;">
       <ui-button
         v-for="card in cards.filter(i => i.type ==='custom')"
@@ -21,12 +21,15 @@
         size="large"
         :type="card.seen ? 'primary': 'secondary'"
         class="cardbtn customcard"
-        @click="opencard(card.name)"
+        @click="handleOpenCard(card.name)"
       >
         <strong>{{ card.name }}</strong>
         <small>{{ card.subname }}</small>
       </ui-button>
     </div>
+    <ui-modal ref="cardmodal" size="fullscreen" title="Fullscreen modal" transition="scale-up" @hide="handleCloseCard">
+      Hier ist die Card: {{ openCard }}
+    </ui-modal>
   </div>
 </template>
 
@@ -38,11 +41,18 @@ export default {
     },
     legendName() {
       return this.$store.getters.currentLegend.name;
+    },
+    openCard(){
+      return this.$store.state.ui.openCard;
     }
   },
   methods: {
-    opencard(name){
-      return this.$store.commit('openCard', name);
+    handleOpenCard(name){
+      this.$store.commit('openCard', name);
+      this.$refs['cardmodal'].open();
+    },
+    handleCloseCard(){
+      this.$store.commit('closeCard');
     }
   }
 };
