@@ -9,6 +9,12 @@
     "predeploy": [
       "npm --prefix hosting run build"
     ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
     "public": "hosting/dist",
     "ignore": [
       "firebase.json",

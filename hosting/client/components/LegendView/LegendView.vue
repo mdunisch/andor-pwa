@@ -1,18 +1,25 @@
 <template>
-  <div>legende wurde gewählt {{ legendLinks }}</div>
+  <div>
+    <h3>{{ legendName }}</h3>
+    <ul>
+      <li v-for="card in cards.filter(i => i.type ==='letter')" :key="card.name">{{ card.name }}</li>
+    </ul>
+    <hr>
+    <ul>
+      <li v-for="card in cards.filter(i => i.type ==='custom')" :key="card.name">{{ card.name }}</li>
+    </ul>
+  </div>
 </template>
 
 <script>
 export default {
   computed: {
-    legendLinks() {
-      const legendSlug = this.$route.params.slug;
-      return this.$store.state.legends.find(i => i.slug === legendSlug).cards.map(card => {
-          return { slug: card.slug, name: card.name };
-      });
+    cards() {
+      return this.$store.getters.currentLegend.cards;
+    },
+    legendName() {
+      return this.$store.getters.currentLegend.name;
     }
-  },
-  methods: {
   }
 };
 </script>

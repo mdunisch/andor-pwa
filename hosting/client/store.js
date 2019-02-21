@@ -21,6 +21,11 @@ export default new Vuex.Store({
             text: 'Führt zuerst die Anweisungen auf der **Checkliste** aus.\n\nAnschließend legt ihr zusätzlich folgenden Material neben dem Spielplan bereit:\n* Legt die Hexte, die 15 Kreaturplättchen, den Gegenstand Gibt und 3 schwarze Würfel bereit.\n* Legen **Sternchen auf D, H und N** der Legendenleiste.\n\n*In Andor trug ist eine Geschichte zu, die Ging so:....*\n\nStellt alle Helden auf das Feld **57.**\n\n***\n**Aufgabe:**\nDie Helden müssen die Burg verteidigen und den **die Dunkelheit** daran hindern, alle Bauern zu verschlingen bevor der Erzähler den Buchstaben **Feld H** erreicht hat.\n***',
           },
           {
+            type: 'letter',
+            name: 'A2',
+            text: 'Jetzt gehts los!',
+          },
+          {
             type: 'custom',
             name: 'In der Dunkelheit',
             subname: 'Diese Karte wird aufgedeckt, sobald die Dunkelheit in der Burg ist',
@@ -36,11 +41,16 @@ export default new Vuex.Store({
     ]
   },
   mutations: {
-    openlegend(state, legendIndex) {
-      state.ui.openlegend = legendIndex;
+    openlegend(state, legendSlug) {
+      state.ui.openlegend = legendSlug;
     },
     closelegend(state,){
       state.ui.openlegend = false;
+    }
+  },
+  getters: {
+    currentLegend: state => {
+      return state.legends.find(i => i.slug === state.ui.openlegend) || false;
     }
   }
 });

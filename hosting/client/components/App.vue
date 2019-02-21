@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ui-toolbar title="Andor Legenden">
+    <ui-toolbar :title="activeLegend">
       <div slot="icon">
         <ui-icon-button
           v-show="menuVisible"
@@ -21,6 +21,14 @@ export default {
   computed: {
     menuVisible() {
       return this.$route.path !== "/";
+    },
+    activeLegend() {
+      const preName = 'Andor Legenden';
+
+      if(!this.$store.state.ui.openlegend){
+        return preName;
+      }
+      return preName + ': ' + this.$store.getters.currentLegend.name;
     }
   },
   methods: {
