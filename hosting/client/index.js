@@ -7,13 +7,10 @@ import VueRouter from 'vue-router';
 
 Vue.use(VueRouter);
 
-import { UiToolbar, UiIconButton, UiButton, UiMenu, UiIcon } from 'keen-ui';
+import 'keen-ui/dist/keen-ui.css';
 
-Vue.component('ui-toolbar', UiToolbar);
-Vue.component('ui-icon-button', UiIconButton);
-Vue.component('ui-button', UiButton);
-Vue.component('ui-menu', UiMenu);
-Vue.component('ui-icon', UiIcon);
+import KeenUI from 'keen-ui';
+Vue.use(KeenUI);
 
 import App from './components/App';
 import store from './store';
