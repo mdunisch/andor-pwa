@@ -19,7 +19,7 @@ export default {
             {
               slug: legend.slug,
               label: legend.name,
-              secondaryText: "Ctrl+E"
+              secondaryText: legend.slug
             },
             {
               type: "divider"

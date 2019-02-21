@@ -1,36 +1,18 @@
 <template>
-  <div>
-    legende wurde gewählt {{ choosen }}
-  </div>
+  <div>legende wurde gewählt {{ legendLinks }}</div>
 </template>
 
 <script>
 export default {
   computed: {
-      choosen(){
-        return this.$route.params.slug;  
-      },
-    legendsMenu() {
-      return this.$store.state.legends.map(legend => {
-          return [
-            {
-              slug: legend.slug,
-              label: legend.name,
-              secondaryText: "Ctrl+E"
-            },
-            {
-              type: "divider"
-            }
-          ];
-        })
-        .flat()
-        .slice(0, -1);
+    legendLinks() {
+      const legendSlug = this.$route.params.slug;
+      return this.$store.state.legends.find(i => i.slug === legendSlug).cards.map(card => {
+          return { slug: card.slug, name: card.name };
+      });
     }
   },
   methods: {
-    changeLegend() {
-      this.$router.push('home');
-    }
   }
 };
 </script>

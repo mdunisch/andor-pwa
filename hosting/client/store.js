@@ -30,7 +30,8 @@ export default new Vuex.Store({
      },
       {
          name: 'Blubblubbul',
-         slug: 'Bi-Ba-blub'
+         slug: 'Bi-Ba-blub',
+         cards: []
       }
     ]
   },
