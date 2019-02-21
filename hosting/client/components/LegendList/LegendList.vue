@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     changeLegend(e) {
-      this.$router.push(`/legends/${e.slug}`);
+      this.$router.push(`/${e.slug}`);
     }
   }
 };

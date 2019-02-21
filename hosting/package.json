@@ -10,14 +10,19 @@
     "prebuild": "rm -rf dist",
     "predev": "rm -rf dist"
   },
+  "saveDepsLocal": {
+    "andor-legendenkarte": "mdunisch/andor-legendenkarte"
+  },
   "dependencies": {
+    "andor-legendenkarte": "file:./../../andor-legendenkarte",
     "array-flat-polyfill": "^1.0.0",
     "keen-ui": "^1.1.2",
     "marked": "^0.6.1",
     "parcel-plugin-sw-precache": "^1.0.4",
     "vue": "^2.6.6",
     "vue-router": "^3.0.2",
-    "vuex": "^3.1.0"
+    "vuex": "^3.1.0",
+    "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",

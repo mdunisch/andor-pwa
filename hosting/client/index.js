@@ -1,6 +1,8 @@
 // Polyfills
 import 'array-flat-polyfill';
 
+import { sync } from 'vuex-router-sync';
+
 // Main App
 import Vue from 'vue';
 import VueRouter from 'vue-router';
@@ -25,23 +27,16 @@ const router = new VueRouter({
       component: LegendList
     },
     {
-      path: '/legends/:slug',
+      path: '/:legendSlug/:cardSlug?',
       component: LegendView
     }
   ]
 });
 
+sync(store, router);
+
 new Vue({
   el: '#app',
-  watch: {
-    $route(to) {
-      this.$store.commit('openlegend', to.params.slug || false);
-    }
-  },
-  // Set init state
-  beforeCreate(){
-    this.$store.commit('openlegend', this.$route.params.slug || false);
-  },
   render: h => h(App),
   store,
   router

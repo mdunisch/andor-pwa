@@ -25,7 +25,7 @@ export default {
     activeLegend() {
       const preName = 'Andor Legenden';
 
-      if(!this.$store.state.ui.openlegend){
+      if(!this.$store.getters.currentLegend){
         return preName;
       }
       return preName + ': ' + this.$store.getters.currentLegend.name;
