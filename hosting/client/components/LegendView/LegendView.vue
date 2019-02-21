@@ -30,11 +30,15 @@
     <ui-modal
       ref="cardmodal"
       size="fullscreen"
-      :title="openCard"
+      :title="currentCard.name"
       transition="scale-up"
       @hide="handleCloseCard"
     >
-        <CardPreview :card-data="currentLegend.cards.find(i => i.name === openCard) || {}" :name="currentLegend.name" style="margin: 0 auto;" />
+      <CardPreview
+        :card-data="currentCard || {}"
+        :name="currentLegend.name"
+        style="margin: 0 auto;"
+      />
     </ui-modal>
   </div>
 </template>
@@ -48,18 +52,26 @@ export default {
     currentLegend() {
       return this.$store.getters.currentLegend;
     },
-    openCard() {
-      return this.$store.state.ui.openCard;
+    currentCard() {
+      return this.$store.getters.currentCard;
+    }
+  },
+  mounted() {
+    // Open on direct route
+    if (
+      this.currentCard &&
+      !document.querySelector("body").classList.contains("ui-modal--is-open")
+    ) {
+      this.$refs["cardmodal"].open();
     }
   },
   methods: {
     handleOpenCard(slug) {
-      this.$router.push(`/legends/${this.$route.params.legendSlug}/${slug}`);
+      this.$router.push(`/${this.$route.params.legendSlug}/${slug}`);
       this.$refs["cardmodal"].open();
     },
     handleCloseCard() {
-      // Todo: Path ändern
-      this.$store.commit("closeCard");
+      this.$router.go(-1);
     }
   }
 };

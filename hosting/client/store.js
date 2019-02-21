@@ -6,10 +6,6 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   //strict: true,
   state: {
-    ui: {
-      openlegend: false,
-      openCard: false
-    },
     legends: [
      {
         name: 'Die dunklen weiten von Andor',
@@ -47,24 +43,6 @@ export default new Vuex.Store({
     ]
   },
   mutations: {
-    openlegend(state, legendSlug) {
-      state.ui.openlegend = legendSlug;
-    },
-    opencard(state, cardSlug) {
-      state.ui.openCard = cardSlug;
-    },
-    openCard(state, cardname){
-      state.legends
-      .find(i => i.slug === state.ui.openlegend)
-      .cards
-      .find(cards => cards.name === cardname)
-      .seen = true;
-
-      state.ui.openCard = cardname;
-    },
-    closeCard(state){
-      state.ui.openCard = false;
-    }
   },
   getters: {
     currentLegend: state => {
