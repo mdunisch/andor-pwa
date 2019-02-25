@@ -39,7 +39,7 @@
       <CardPreview
         :card-data="currentCard || {}"
         :name="currentLegend.name"
-        class="andorCard"
+        card-type="app"
       />
     </ui-modal>
   </div>
@@ -96,20 +96,6 @@ export default {
 
 .customcard >>> .ui-button__content strong {
   padding-bottom: 20px;
-}
-
-.andorCard {
-  background: #ebd188;
-  width: auto;
-}
-
-.andorCard >>> .left{
-  display: none;
-}
-
-.andorCard >>> .right {
-  height: 100%;
-  overflow: auto;
 }
 
 </style>
