@@ -11,15 +11,15 @@
     "predev": "rimraf dist"
   },
   "saveDepsLocal": {
-    "andor-legendenkarte": "mdunisch/andor-legendenkarte"
+    "andor-legendenkarte": "file:./../../andor-legendenkarte"
   },
   "dependencies": {
-    "andor-legendenkarte": "file:./../../andor-legendenkarte",
+    "andor-legendenkarte": "mdunisch/andor-legendenkarte",
     "array-flat-polyfill": "^1.0.0",
     "keen-ui": "^1.1.2",
     "marked": "^0.6.1",
     "parcel-plugin-sw-precache": "^1.0.4",
-    "vue": "^2.6.6",
+    "vue": "^2.6.7",
     "vue-router": "^3.0.2",
     "vuex": "^3.1.0",
     "vuex-router-sync": "^5.0.0"
@@ -32,8 +32,8 @@
     "eslint": "^5.14.1",
     "eslint-plugin-vue": "^5.2.2",
     "parcel-bundler": "^1.11.0",
-    "vue-hot-reload-api": "^2.3.2",
-    "vue-template-compiler": "^2.6.6"
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-template-compiler": "^2.6.7"
   },
   "bugs": {
     "url": "https://github.com/mdunisch/andor-pwa/issues"

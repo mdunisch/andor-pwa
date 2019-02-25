@@ -10,7 +10,9 @@
         class="cardbtn"
         :type="card.seen ? 'primary': 'secondary'"
         @click="handleOpenCard(card.slug)"
-      >{{ card.name }}</ui-button>
+      >
+        {{ card.name }}
+      </ui-button>
     </div>
     <hr v-if="currentLegend.cards.filter(i => i.type ==='custom').length !== 0">
     <div style="display: flex;">
