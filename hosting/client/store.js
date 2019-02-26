@@ -4,6 +4,7 @@ import Vuex from 'vuex';
 Vue.use(Vuex);
 
 /**
+ * Loading Legends from Fetch-Request (prod) or local file (dev)
  * @returns {Promise.<Object>}
  */
 const loadLegends = async() => {
@@ -58,7 +59,7 @@ export default new Vuex.Store({
         commit('applyLoadedLegends', await loadLegends());
         commit('loading', false);
       } catch(e){
-        console.log(e); // eslint-disable-line no-console
+        console.error(e); // eslint-disable-line no-console
         commit('loading', false);
       }
     }

@@ -37,6 +37,12 @@ sync(store, router);
 
 new Vue({
   el: '#app',
+  mounted(){
+    // Init Load
+    if(this.$store.state.legends.length === 0) {
+      this.$store.dispatch('loadLegenden');
+    }
+  },
   render: h => h(App),
   store,
   router
