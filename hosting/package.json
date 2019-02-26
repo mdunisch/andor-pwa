@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "andor-legendenkarte": "mdunisch/andor-legendenkarte",
-    "array-flat-polyfill": "^1.0.0",
     "keen-ui": "^1.1.2",
     "marked": "^0.6.1",
     "parcel-plugin-sw-precache": "^1.0.4",

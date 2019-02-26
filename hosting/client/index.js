@@ -1,6 +1,3 @@
-// Polyfills
-import 'array-flat-polyfill';
-
 import { sync } from 'vuex-router-sync';
 
 // Main App

@@ -2,6 +2,7 @@
    {
       "name":"Die dunklen weiten von Andor",
       "slug":"die-dunklen-weiten-von-andor",
+      "abstract": "Prinz Thorald war aufgebrochen und hatte nahe dem Baum der Lieder einen Vorposten gegen Varkurs Kreaturen errichtet. Doch die Kreaturen schlugen mit solch einer Kraft zurück, dass der Prinz schließlich den Posten aufgeben musste. Und noch schlimmere Kunde erreichte die Helden: Varkur hatte Prinz Thorald gefangen genommen.\n\nKämpft als Helden gegen dunkle Mächte und finstere Kreaturen, sucht Rat bei Reka und steht Prinz Thorald zur Seite.",
       "cards":[
          {
             "type":"letter",
@@ -27,6 +28,7 @@
    {
       "name":"Blubblubbul",
       "slug":"Bi-Ba-blub",
+      "abstract": "Fooobiibaaa",
       "cards":[
 
       ]

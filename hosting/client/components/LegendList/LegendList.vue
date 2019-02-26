@@ -1,45 +1,45 @@
 <template>
   <div>
     <h3>wähle eine Legende:</h3>
-    <ui-menu
-      has-secondary-text
-      :options="legendsMenu"
-      style="max-width: 100%;"
-      @select="changeLegend"
-    ></ui-menu>
+
+    <ui-collapsible
+      v-for="legend in legends"
+      :key="legend.slug"
+      :open="open === legend.slug"
+      @open="openCollapsible(legend.slug)"
+    >
+      <div slot="header">{{ legend.name }}</div>
+      <p>{{ legend.abstract }}</p>
+      <ui-button @click="changeLegend(legend.slug)">Legende starten</ui-button>
+    </ui-collapsible>
     <ui-button :loading="loading" @click="handleLoading">Laden</ui-button>
   </div>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      open: false
+    };
+  },
   computed: {
-    legendsMenu() {
-      return this.$store.state.legends.map(legend => {
-          return [
-            {
-              slug: legend.slug,
-              label: legend.name,
-              secondaryText: legend.slug
-            },
-            {
-              type: "divider"
-            }
-          ];
-        })
-        .flat()
-        .slice(0, -1);
-    },
-    loading(){
+    loading() {
       return this.$store.state.ui.loading;
-    } 
+    },
+    legends() {
+      return this.$store.state.legends;
+    }
   },
   methods: {
-    changeLegend(e) {
-      this.$router.push(`/${e.slug}`);
+    changeLegend(slug) {
+      this.$router.push(`/${slug}`);
     },
-    handleLoading(){
-      this.$store.dispatch('loadLegenden');
+    handleLoading() {
+      this.$store.dispatch("loadLegenden");
+    },
+    openCollapsible(slug) {
+      this.open = slug;
     }
   }
 };
