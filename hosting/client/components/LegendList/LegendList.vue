@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>wähle eine Legende:</h3>
+    <h4 style="text-align: center;">Zum Starten wähle bitte eine Legende aus:</h4>
 
     <ui-collapsible
       v-for="legend in legends"
@@ -12,7 +12,6 @@
       <p>{{ legend.abstract }}</p>
       <ui-button @click="changeLegend(legend.slug)">Legende starten</ui-button>
     </ui-collapsible>
-    <ui-button :loading="loading" @click="handleLoading">Laden</ui-button>
   </div>
 </template>
 
@@ -34,9 +33,6 @@ export default {
   methods: {
     changeLegend(slug) {
       this.$router.push(`/${slug}`);
-    },
-    handleLoading() {
-      this.$store.dispatch("loadLegenden");
     },
     openCollapsible(slug) {
       this.open = slug;
