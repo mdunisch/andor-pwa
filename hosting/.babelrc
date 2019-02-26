@@ -3,15 +3,19 @@
     [
       "@babel/preset-env",
       {
-        "useBuiltIns": "entry",
+        "useBuiltIns": "usage",
         "targets": {
           "browsers": [
-            "> 1% in DE",
+            "> 2% in DE",
             "last 2 versions",
-            "ie > 11"
+            "ie > 11",
+            "not dead"
           ]
         }
       }
     ]
-  ]
+  ],
+  "plugins": [ ["@babel/plugin-transform-runtime", {
+    "corejs": 2
+  }]]
 }

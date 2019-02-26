@@ -17,5 +17,9 @@
         {
             "files": [ "your/globs/**/*.js" ]
         }
-    ]
+    ],
+    "globals": {
+        "process": "readonly",
+        "require": "readonly"
+    }
 }

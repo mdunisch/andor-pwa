@@ -7,6 +7,7 @@
       style="max-width: 100%;"
       @select="changeLegend"
     ></ui-menu>
+    <ui-button :loading="loading" @click="handleLoading">Laden</ui-button>
   </div>
 </template>
 
@@ -28,11 +29,17 @@ export default {
         })
         .flat()
         .slice(0, -1);
-    }
+    },
+    loading(){
+      return this.$store.state.ui.loading;
+    } 
   },
   methods: {
     changeLegend(e) {
       this.$router.push(`/${e.slug}`);
+    },
+    handleLoading(){
+      this.$store.dispatch('loadLegenden');
     }
   }
 };
