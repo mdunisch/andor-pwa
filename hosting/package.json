@@ -25,9 +25,9 @@
     "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
-    "@babel/preset-env": "^7.0.0",
-    "@vue/component-compiler-utils": "^2.5.2",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@vue/component-compiler-utils": "^2.6.0",
     "babel-plugin-transform-imports": "^1.5.1",
     "eslint": "^5.14.1",
     "eslint-plugin-vue": "^5.2.2",
