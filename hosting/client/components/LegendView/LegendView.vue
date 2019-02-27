@@ -12,20 +12,20 @@
       >{{ card.name }}</ui-button>
     </div>
     <hr v-if="currentLegend.cards.filter(i => i.type ==='custom').length !== 0">
-    <div style="display: flex;">
+    <div
+      v-for="card in currentLegend.cards.filter(i => i.type ==='custom')"
+      :key="card.name"
+      class="customCardHolder"
+    >
       <ui-button
-        v-for="card in currentLegend.cards.filter(i => i.type ==='custom')"
-        :key="card.name"
         :raised="!card.seen"
         size="large"
         :type="card.seen ? 'primary': 'secondary'"
         class="cardbtn customcard"
         v-bind:class="{ seen: card.seen }"
         @click="handleOpenCard(card.slug)"
-      >
-        <strong>{{ card.name }}</strong>
-        <small>{{ card.subname }}</small>
-      </ui-button>
+      >{{ card.name }}</ui-button>
+      <div>{{ card.subname }}</div>
     </div>
     <ui-modal
       ref="cardmodal"
@@ -79,12 +79,14 @@ export default {
 .cardbtn {
   margin: 10px;
   border-radius: 5px;
-  height: 128px;
-  width: 85px;
   background-image: url("./../../asserts/blankocard.png");
   background-size: cover;
-  font-size: 32px;
+  background-position: center;
+  font-size: 36px;
   text-shadow: 0px 0px 2px white;
+
+  width: 85px;
+  height: 128px;
 }
 
 .cardbtn.seen {
@@ -92,12 +94,11 @@ export default {
 }
 
 .cardbtn.customcard {
-      width: auto;
-    background: navajowhite;
-  max-width: 200px;
-  height: auto;
-  padding: 15px;
   font-size: 15px;
+  padding: 0 4rem;
+  background-position: bottom;
+  border-radius: 0 0 5px 5px;
+  height: 100px;
 }
 
 .customcard >>> .ui-button__content {
@@ -106,6 +107,11 @@ export default {
 
 .customcard >>> .ui-button__content strong {
   padding-bottom: 20px;
+}
+
+.customCardHolder {
+  display: flex;
+  align-items: baseline;
 }
 
 .cardModal >>> .ui-modal__body {
