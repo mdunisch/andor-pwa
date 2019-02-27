@@ -9,9 +9,7 @@
         class="cardbtn"
         :type="card.seen ? 'primary': 'secondary'"
         @click="handleOpenCard(card.slug)"
-      >
-        {{ card.name }}
-      </ui-button>
+      >{{ card.name }}</ui-button>
     </div>
     <hr v-if="currentLegend.cards.filter(i => i.type ==='custom').length !== 0">
     <div style="display: flex;">
@@ -32,14 +30,11 @@
       ref="cardmodal"
       size="fullscreen"
       :title="currentCard.name"
-      transition="scale-up"
+      class="cardModal"
+      transition="fade"
       @hide="handleCloseCard"
     >
-      <CardPreview
-        :card-data="currentCard || {}"
-        :name="currentLegend.name"
-        card-type="app"
-      />
+      <CardPreview :card-data="currentCard || {}" :name="currentLegend.name" card-type="app" />
     </ui-modal>
   </div>
 </template>
@@ -70,7 +65,7 @@ export default {
     handleOpenCard(slug) {
       this.$router.push(`/${this.$route.params.legendSlug}/${slug}`);
       this.$refs["cardmodal"].open();
-      this.$store.commit('seeCard');
+      this.$store.commit("seeCard");
     },
     handleCloseCard() {
       this.$router.go(-1);
@@ -81,7 +76,7 @@ export default {
 
 <style scoped>
 .cardbtn {
-  margin: 20px;
+  margin: 10px;
 }
 
 .customcard {
@@ -98,4 +93,7 @@ export default {
   padding-bottom: 20px;
 }
 
+.cardModal >>> .ui-modal__body {
+  padding: 0;
+}
 </style>
