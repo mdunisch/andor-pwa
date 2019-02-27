@@ -70,6 +70,7 @@ export default {
     handleOpenCard(slug) {
       this.$router.push(`/${this.$route.params.legendSlug}/${slug}`);
       this.$refs["cardmodal"].open();
+      this.$store.commit('seeCard');
     },
     handleCloseCard() {
       this.$router.go(-1);

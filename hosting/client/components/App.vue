@@ -22,8 +22,8 @@
           @click="handleLoading"
         ></ui-icon-button>
       </div>
-      <div v-if="mainpage" style="width: 35%; padding-top: 5px;">
-        <img src="./../asserts/logo-menue.png" alt style="width: 100%">
+      <div v-if="mainpage" style="height: 3.5rem; padding: 3px; margin-left: -10px;">
+        <img src="./../asserts/logo-menue.png" alt style="max-height: 100%">
       </div>
       <div v-if="!mainpage">{{ activeLegend }}</div>
     </ui-toolbar>
@@ -49,7 +49,6 @@ export default {
       this.$router.go(-1);
     },
     handleLoading() {
-      console.log("click");
       this.$store.dispatch("loadLegenden");
     }
   }

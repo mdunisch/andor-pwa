@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import createPersistedState from 'vuex-persistedstate';
 
 Vue.use(Vuex);
 
@@ -35,6 +36,9 @@ export default new Vuex.Store({
   },
   mutations: {
     loading: (state, newState) => state.ui.loading = newState,
+    seeCard(){
+      this.getters.currentCard.seen = true;
+    },
     applyLoadedLegends(state, legends){
 
       // Adding seen: false to every card
@@ -65,5 +69,6 @@ export default new Vuex.Store({
         commit('loading', false);
       }
     }
-  }
+  },
+  plugins: [createPersistedState()]
 });

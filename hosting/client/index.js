@@ -35,7 +35,11 @@ sync(store, router);
 new Vue({
   el: '#app',
   mounted(){
-    // Init Load
+    // Send to mainpage
+    if(this.$route.path !== "/" && this.$store.state.legends.length === 0){
+      this.$router.replace('/');
+    }
+    // Load legends
     if(this.$store.state.legends.length === 0) {
       this.$store.dispatch('loadLegenden');
     }
