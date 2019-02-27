@@ -7,7 +7,7 @@
         :raised="!card.seen"
         size="large"
         class="cardbtn"
-        :type="card.seen ? 'primary': 'secondary'"
+        v-bind:class="{ seen: card.seen }"
         @click="handleOpenCard(card.slug)"
       >{{ card.name }}</ui-button>
     </div>
@@ -20,6 +20,7 @@
         size="large"
         :type="card.seen ? 'primary': 'secondary'"
         class="cardbtn customcard"
+        v-bind:class="{ seen: card.seen }"
         @click="handleOpenCard(card.slug)"
       >
         <strong>{{ card.name }}</strong>
@@ -34,7 +35,7 @@
       transition="fade"
       @hide="handleCloseCard"
     >
-      <CardPreview :card-data="currentCard || {}" :name="currentLegend.name" card-type="app" />
+      <CardPreview :card-data="currentCard || {}" :name="currentLegend.name" card-type="app"/>
     </ui-modal>
   </div>
 </template>
@@ -77,12 +78,26 @@ export default {
 <style scoped>
 .cardbtn {
   margin: 10px;
+  border-radius: 5px;
+  height: 128px;
+  width: 85px;
+  background-image: url("./../../asserts/blankocard.png");
+  background-size: cover;
+  font-size: 32px;
+  text-shadow: 0px 0px 2px white;
 }
 
-.customcard {
+.cardbtn.seen {
+  filter: grayscale(90%);
+}
+
+.cardbtn.customcard {
+      width: auto;
+    background: navajowhite;
   max-width: 200px;
   height: auto;
   padding: 15px;
+  font-size: 15px;
 }
 
 .customcard >>> .ui-button__content {
