@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h3>{{ currentLegend.name }}</h3>
     <div style="display: flex;">
       <ui-button
         v-for="card in currentLegend.cards.filter(i => i.type ==='letter')"

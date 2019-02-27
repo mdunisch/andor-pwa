@@ -7,11 +7,13 @@ Vue.use(Vuex);
  * Loading Legends from Fetch-Request (prod) or local file (dev)
  * @returns {Promise.<Object>}
  */
-const loadLegends = async() => {
+const loadLegends = async () => {
 
   // Dev
   if (process.env.NODE_ENV === 'development') {
     const json = require('./../../storage/legends.json');
+    // Simulate Loading
+    await new Promise(resolve => setTimeout(resolve, 400));
     return json;
   }
 

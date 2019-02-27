@@ -4,13 +4,18 @@
 
     <ui-collapsible
       v-for="legend in legends"
+      
       :key="legend.slug"
+
+      class="no-border"
       :open="open === legend.slug"
       @open="openCollapsible(legend.slug)"
     >
       <div slot="header">{{ legend.name }}</div>
       <p>{{ legend.abstract }}</p>
-      <ui-button @click="changeLegend(legend.slug)">Legende starten</ui-button>
+      <div style="text-align: right">
+        <ui-button @click="changeLegend(legend.slug)">Legende starten</ui-button>
+      </div>
     </ui-collapsible>
   </div>
 </template>
@@ -42,4 +47,7 @@ export default {
 </script>
 
 <style scoped>
+.no-border >>> .ui-collapsible__body {
+  border: none;
+}
 </style>
