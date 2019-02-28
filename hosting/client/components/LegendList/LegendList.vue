@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4 style="text-align: center;">Zum Starten wähle bitte eine Legende aus:</h4>
+    <h4 style="text-align: center;">Zum Starten wähle bitte eine Legende (CAHE!)aus:</h4>
 
     <ui-collapsible
       v-for="legend in legends"
