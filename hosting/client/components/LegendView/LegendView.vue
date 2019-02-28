@@ -11,7 +11,7 @@
         @click="handleOpenCard(card.slug)"
       >{{ card.name }}</ui-button>
     </div>
-    <hr v-if="currentLegend.cards.filter(i => i.type ==='custom').length !== 0">
+    <hr v-if="currentLegend.cards.filter(i => i.type ==='custom').length !== 0" class="trenner">
     <div
       v-for="card in currentLegend.cards.filter(i => i.type ==='custom')"
       :key="card.name"
@@ -116,5 +116,12 @@ export default {
 
 .cardModal >>> .ui-modal__body {
   padding: 0;
+}
+
+.trenner {
+    border-width: 0 0 1px;
+    color: #2F4F4F;
+    border-image: linear-gradient(90deg, rgba(135, 206, 235, 0),#2F4F4F 50%, rgba(135, 206, 235, 0) 100%) 0 0 100%;
+    border-style: solid;
 }
 </style>

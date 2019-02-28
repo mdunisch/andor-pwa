@@ -17,13 +17,4 @@ body {
     font-size: 1em;
 }
 
-@import './loading_spinner.css';
-
-.loading {
-    text-align: center;
-    height: 100%;
-}
-
-.loading .sk-folding-cube {
-    margin: 10% auto;
-}
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700');
