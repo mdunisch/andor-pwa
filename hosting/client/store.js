@@ -30,7 +30,8 @@ export default new Vuex.Store({
   //strict: true,
   state: {
     ui: {
-      loading: false
+      loading: false,
+      error: false
     },
     legends: []
   },
@@ -48,7 +49,11 @@ export default new Vuex.Store({
         })
         return legend;
       });
-    }
+    },
+    showError(state, errormsg){
+      state.ui.error = errormsg;
+    },
+    clearError: state => state.ui.error = false
   },
   getters: {
     currentLegend(state){
@@ -65,8 +70,9 @@ export default new Vuex.Store({
         commit('applyLoadedLegends', await loadLegends());
         commit('loading', false);
       } catch(e){
-        console.error(e); // eslint-disable-line no-console
         commit('loading', false);
+        commit('showError', 'Fehler beim laden der Legenden (Kein Internet?)');
+        console.error(e); // eslint-disable-line no-console
       }
     }
   },

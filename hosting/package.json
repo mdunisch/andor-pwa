@@ -54,6 +54,10 @@
         "handler": "networkOnly"
       },
       {
+        "urlPattern": "/(jpg|gif|png)$/",
+        "handler": "cacheFirst"
+      },
+      {
         "urlPattern": "/(.*)/",
         "handler": "networkFirst"
       }

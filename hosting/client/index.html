@@ -127,6 +127,8 @@
   </div>
   <script defer src="index.js"></script>
   <script type="text/javascript">
+  if (process.env.NODE_ENV === 'production') {
+
     if ('serviceWorker' in navigator) {
 
       const SWUrl = '/service-worker.js';
@@ -137,7 +139,8 @@
         // Registrierung fehlgeschlagen
         console.log('Registrierung fehlgeschlagen mit ' + error);
       });
-  };
+    };
+  }
   </script>
 </body>
 
