@@ -28,6 +28,7 @@
       <div v-if="!mainpage">{{ activeLegend }}</div>
     </ui-toolbar>
     <ui-alert v-show="error" type="error" @dismiss="dismissError">{{ error }}</ui-alert>
+    testing for caching!
     <router-view></router-view>
   </div>
 </template>
