@@ -37,9 +37,10 @@
       :title="currentCard.name"
       class="cardModal"
       transition="fade"
+      v-show="currentCard"
       @hide="handleCloseCard"
     >
-      <CardPreview :card-data="currentCard || {}" :name="currentLegend.name" card-type="app"/>
+      <CardPreview :card-data="currentCard || {}" :name="currentLegend.name" card-type="app" />
     </ui-modal>
   </div>
 </template>
@@ -73,7 +74,9 @@ export default {
       this.$store.commit("seeCard");
     },
     handleCloseCard() {
-      this.$router.go(-1);
+      if(this.currentCard){
+        this.$router.go(-1);
+      }
     }
   }
 };
