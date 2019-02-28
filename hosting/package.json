@@ -50,7 +50,7 @@
   "sw-precache": {
     "runtimeCaching": [
       {
-        "urlPattern": "/^https:\/\/firebasestorage/",
+        "urlPattern": "/^https://firebasestorage/",
         "handler": "networkOnly"
       },
       {

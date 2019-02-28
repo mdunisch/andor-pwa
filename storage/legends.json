@@ -1,36 +1,162 @@
-[
-   {
-      "name":"Die dunklen weiten von Andor",
-      "slug":"die-dunklen-weiten-von-andor",
-      "abstract": "Prinz Thorald war aufgebrochen und hatte nahe dem Baum der Lieder einen Vorposten gegen Varkurs Kreaturen errichtet. Doch die Kreaturen schlugen mit solch einer Kraft zurück, dass der Prinz schließlich den Posten aufgeben musste. Und noch schlimmere Kunde erreichte die Helden: Varkur hatte Prinz Thorald gefangen genommen.\n\nKämpft als Helden gegen dunkle Mächte und finstere Kreaturen, sucht Rat bei Reka und steht Prinz Thorald zur Seite.",
-      "cards":[
+[{
+      "name": "Die Eskorte des Königs",
+      "slug": "die-eskorte-des-knigs",
+      "abstract": "\"Die Eskorte des Königs\" ist eine neue Bonus-Legende und spielt zwischen Legende 3 und Legende 4. Darin begibt sich König Brandur auf eine gefährliche Reise. Als die Helden von Andor von seinem waghalsigen Unterfangen erfahren, bleibt ihnen wenig Zeit um ihn zu retten und sicher durch das Land zu eskortieren.\n\nIhr benötigt: Grundspiel",
+      "cards": [{
+            "name": "A",
+            "slug": "A",
+            "type": "letter",
+            "text": "Führt zuerst die Anweisungen auf der **Checkliste** aus. \n**Wichtig**: Mischt verdeckt 3 Bauernplättchen: 1x Mann, 2x Frau\n\nAnschließend legt ihr zusätzlich folgendes Material neben dem Spielplan bereit: \n- Legt die Hexe, die 15 Kreaturenplättchen, den Gegenstand Gift und 3 schwarze Würfel bereit.\n- Legt **Sternchen auf D, H und N** der Legenden leiste. \n- Legt die Karten “Der alte Narr\" und \"In der Mine\" neben dem Spielplan bereit. \n- Stellt **Gors** auf die Felder **10, 20, 39, 43, 48** und einen **Skral** auf das Feld **45** \n- Legt verdeckt je ein Kreaturenplättchen an die Buchstaben \"B\" bis \"H“ an die Legendenleiste und je ein zusätzliches Kreaturenplättchen an \"C\" und \"E\" (insg. also 9 Kreaturenplättchen) Die Plättchen werden erst aufgedeckt, wenn der Erzähler das jeweilige Buchstabenfeld erreicht.\n\n*Hinweis: Sollte der Erzähler ein Feld auf der Legendenleiste erreichen, auf dem sowohl eine Legendenkarte als auch ein Kreaturenplättchen ausgelöst wird, hat das **Kreaturenplättchen immer Vorrang**.*\n\n- Erwürfelt mit einem roten (10er) und einem Heldenwürfel (ler) die Positionen von **5 der 6 Runensteine** und von **2 Trinkschläuchen**.\n\n*Die letzten Winterstürme zogen über das Land, als den Helden von Andor ein neues Abenteuer bevorstand. Melkart, der Bewahrer, hatte sie zum Baum der Lieder gerufen, um ihnen von einem beunruhigenden Gerücht zu erzählen.*\n\nStellt alle Helden auf das Feld **57**.\n\n\"*Der König habe den Verstand verloren, so sagt man\", berichtete Melkart. \"Ganz allein und in Lumpen gekleidet sei der alte Mann Richtung Süden aufgebrochen, ehe seine Getreuen ihn hatten hindern können. Nun fehlt jede Spur von ihm.\"*\n\nLegt je eines der verdeckten Bauernplättchen auf die Felder **24, 28 und 34**. Ein Held auf dem gleichen Feld kann sie aufdecken (mit dem Fernrohr auch von einem angrenzenden Feld). Wird eins der weiblichen Bauernplättchen aufgedeckt, kann es nach den üblichen Regeln zur Burg gebracht werden. Wird das männliche Bauerplättchen aufgedeckt, habt ihr den König entdeckt. Wenn ein Held auf seinem Feld **steht**, lest sofort die Karte \"Der alte Narr\" vor.\n\nLegt je 1 Sternchen zu den Bauernplättchen, damit ihr die Karte \"Der alte Narr” nicht vergesst. Der König gilt als normales Bauernplättchen und wird von den Helden mitbewegt. Läuft ein Held mit dem König auf das Feld einer Kreatur oder betritt eine Kreatur ein Feld mit dem König (auch im verdeckten Zustand), ist er geschlagen und die **Legende ist sofort verloren**.\n\n*Melkart senkte den Blick. \"Zu allem Überfluss berichten unsere Späher, dass sich die Kreaturen zu einem Großangriff auf die Rietburg sammeln. Ihr werdet nicht nur den König, sondern auch seine Burg retten müssen.\"*\n***\n**Aufgabe**: \nDie Helden müssen die Burg verteidigen und den König finden und sicher zur Mine der Schildzwerge (Feld 71) eskortieren. Wenn der Erzähler den Buchstaben Feld “H” auf der Legendenleiste erreicht, muss der König in der Mine sein.\n***\n**Ausrüstung**: \nJeder Held startet mit **1 Stärkepunkt**. Die Gruppe erhält **5 Gold** und **3 Stärkepunkte**.\n\n*Hinweis: Weil die Helden bereits auf einem Feld mit Händlersymbol stehen, dürfen sie auch bevor sie ihre eigentliche Aktion durchführen, einkaufen.\nEin eisiger Regen peitschte den Helden entgegen, als sie den Baum der Lieder verließen.*\n\n**Der Held mit dem zweithöchsten Rang beginnt.**" 
+         }, 
          {
-            "type":"letter",
-            "name":"A1",
-            "slug":"a1",
-            "text":"Führt zuerst die Anweisungen auf der **Checkliste** aus.\n\nAnschließend legt ihr zusätzlich folgenden Material neben dem Spielplan bereit:\n* Legt die Hexte, die 15 Kreaturplättchen, den Gegenstand Gibt und 3 schwarze Würfel bereit.\n* Legen **Sternchen auf D, H und N** der Legendenleiste.\n\n*In Andor trug ist eine Geschichte zu, die Ging so:....*\n\nStellt alle Helden auf das Feld **57.**\n\n***\n**Aufgabe:**\nDie Helden müssen die Burg verteidigen und den **die Dunkelheit** daran hindern, alle Bauern zu verschlingen bevor der Erzähler den Buchstaben **Feld H** erreicht hat.\n***"
-         },
-         {
-            "type":"letter",
-            "name":"A2",
-            "slug":"a2",
-            "text":"*Der Held trat auf den alten Mann in Lumpen zu. “Herr, seid ihr das?”\nDer König erkannte den Helden und kurz darauf erklärte er, warum er aufgebrochen war:\n“Es ist die große Müdigkeit, die auf mir liegt. Doch möchte ich mein Königreich nicht schutzlos zurücklassen. Aus Gier habe ich einst ein starkes Bündnis mit den Schildzwergen gebrochen. Ich weigerte mich den **Sternenschild** herzugeben. Mit meinem Marsch zur Mine, der für euch wie Narrheit aussehen mag, versuche ich meinen Fehler wiedergutzumachen und die Herzen der Zwerge zurückzugewinnen. Doch leider habe ich meine Kräfte wohl weit überschätzt” Der Held stütze den König. “Kommt, Herr. Ihr seid nicht allein.”*\n***\n**Aufgabe:**\nDie Helden müssen den König **sicher** zur Mine der Schildzwerge (Feld 71) eskortieren, ehe der Erzähler den Buchstaben **“H”** auf der Legendenleiste erreicht. Die Burg darf der König vorher nicht betreten. \n***\nWenn der König in der Mine ist, lest sofort die Karte “In der Mine” vor. Legt jetzt zur Erinnerung ein Sternchen auf Feld 71.\n\n**Wichtige Ausnahme:**\nSollte durch eine Legendenkarte oder ein Kreaturenplättchen eine **neue** Kreatur zufällig auf dem Feld aufgestellt werden, auf dem sich der König gerade befindet, wird diese Kreatur entlang des Pfeils in das angrenzende Feld gestellt. Das gilt nur für neue Kreaturen, die ins Spiel kommen."
-         },
-         {
-            "type":"custom",
-            "name":"In der Dunkelheit",
-            "slug":"in-der-dunkelheit",
-            "subname":"Diese Karte wird aufgedeckt, sobald die Dunkelheit in der Burg ist",
-            "text":"*Nach dem Sieg über den Drachen Tarok ist es Varkur gelungen, ein Drachenei in seinen Besitz zu bringen. Einen zweiten Drachen würde Andor nicht überleben, doch glücklicherweise konnten die Helden das Drachenei stehlen. Doch die eigentliche Aufgabe fängt gerade erst an: Um das Drachenei zu zerstören, müssen die Helden mehr altes Wissen über die Drachen zusammentragen und gleichzeitig den Bewohnern Andors helfen, sich von Taroks Angriff zu erholen.*\n\n***\n**Legendenziel:**\nAlle Feld um die Brug (Feld 22, 34, 45, 34 und 33) müssen von der Dunkelheit befreit sein.\n***\n**Wichtig:** Für jeden Feld, das ein Held die Dunkelheit bekämpft, muss der Held Willenspunkte abgeben:\nbei **2** Spielern **pro Feld 2 Willenspunkte**\nbei **3** Spielern **pro Feld 3 Willenspunkte**\nbei **4** Spielern **pro Feld 4 Willenspunkte**\n ist es Varkur gelungen, ein Drachenei in seinen Besitz zu bringen. Einen zweiten Drachen würde Andor nicht überleben, doch glücklicherweise konnten die Helden das Drachenei stehlen. Doch die eigentliche Aufgabe fängt gerade erst an: Um das Drachenei zu zerstören, müssen die Helden mehr altes Wissen über die Drachen zusammentragen und gleichzeitig den Bewohnern Andors helfen, sich von Taroks Angriff zu erholen.*\n\n***\n**Legendenziel:**\nAlle Feld um die Brug (Feld 22, 34, 45, 34 und 33) müssen von der Dunkelheit befreit sein.\n***\n**Wichtig:** Für jeden Feld, das ein Held die Dunkelheit bekämpft, muss der Held Willenspunkte abgeben:\nbei **2** Spielern **pro Feld 2 Willenspunkte**\nbei **3** Spielern **pro Feld 3 Willenspunkte**\nbei **4** Spielern **pro Feld 4 Willenspunkte**\n"
+            "name": "D",
+            "slug": "D",
+            "type": "letter",
+            "text": "*Gors verließen das Unterholz. Hatten sie Kunde von dem waghalsigen Unterfangen des Königs erhalten? Waren sie auf der Jagd nach ihm?* \n\nStellt je einen Gor auf die Felder **47 und 63**. \n\n*Knöcheltief steckte der Held im Morast, als er im Regenschleier die gebückte Gestalt des Handelszwerges Garz erkannte. \"Es kann nicht ewig so weiter regnen, mein Freund\". rief Garz dem Helden zu. \"Es muss auch bald mal wieder hageln und schneien, häh?!\" Lachend fuhr er fort: \"Ihr Helden kämpft auf verlorenem Posten. Das wisst Ihr hoffentlich, hm? Aber eins muss man euch lassen: ihr gebt nicht auf. Hier!\", er reichte dem Helden ein Fläschchen mit dunkler Flüssigkeit.*\n\nEin beliebiger Held erhält jetzt den Gegenstand Gift. Das Gift kann zweimal eingesetzt werden. Der Held setzt das Gift im Kampf nach seinem Würfelwurf und vor der Reaktion der Kreatur ein. Das Gift hat 2 Wirkungen: \n1. Wenn die Kreatur unterliegt, verliert sie nicht nur die Differenz beider Kampfwerte, sondern fällt sofort auf 0 Willenspunkte. \n2. Für eine mit Gift besiegte Kreatur gibt es keine Belohnung. Die Kreatur wird nicht auf das Feld 80 gelegt, sie kommt aus dem Spiel. Der Erzähler geht **kein** Feld weiter auf der Legendenleiste.\n\n*Garz drehte sich um und stampfte weiter. \"Das ist mein Beitrag zum Wohle des Landes.\" rief er. \"Aber erzähl das bloß keinem - ich habe einen Ruf zu verlieren.\"*"
+         }, {
+            "name": "Der alte Narr",
+            "slug": "der-alte-narr",
+            "type": "custom",
+            "text": "*Der Held trat auf den alten Mann in Lumpen zu. \"Herr, seid ihr das?\"\n Der König erkannteden Helden und kurz darauf erklärte er, warum er aufgebrochen war: \"Es ist die große Müdigkeit, die auf mir liegt. Doch möchte ich mein Königreich nicht schutzlos zurücklassen. Aus Gier habe ich einst ein starkes Bündnis mit den Schildzwergen gebrochen. Ich weigerte mich den **Sternenschild** herzugeben. Mit meinem Marsch zur Mine, der für euch wie Narrheit aussehen mag, versuche ich meinen Fehler wiedergutzumachen und die Herzen der Zwerge zurückzugewinnen. Doch leider habe ich meine Kräfte wohl weit überschätzt\" Der Held stütze den König. \"Kommt, Herr. Ihr seid nicht allein.\"*\n\n***\n\n**Aufgabe:**\n\nDie Helden müssen den König **sicher** zur Mine der Schildzwerge (Feld 71) eskortieren, ehe der Erzähler den Buchstaben **\"H\"** auf der Legendenleiste erreicht. Die Burg darf der König vorher nicht betreten.\n\n***\n\nWenn der König in der Mine ist, lest sofort die Karte \"In der Mine\" vor. Legt jetzt zur Erinnerung ein Sternchen auf Feld 71.\n\n\n\n**Wichtige Ausnahme**:\n Sollte durch eine Legendenkarte oder ein Kreaturenplättchen eine neue Kreatur zufällig auf dem Feld aufgestellt werden, auf dem sich der König gerade befindet, wird diese Kreatur entlang des Pfeils in das angrenzende Feld gestellt. Das gilt nur für neue Kreaturen, die ins Spiel kommen.",
+            "subname": "Diese Karten wird aufgedeckt, sobald der erste Held auf dem Feld mit dem männlichen Bauernplättchen steht."
+         }, {
+            "name": "H",
+            "slug": "H",
+            "type": "letter",
+            "text": "Die Legende nahm ein **böses Ende**, wenn der König jetzt nicht in der Mine (Feld 71) ist. Wenn er in der Mine ist, dann lest jetzt bitte weiter:\n\nStellt je einen **Troll** auf die Felder **40 und 45**.\n\n*Lange hatten der König und der Fürst gesprochen. Die Zwerge stimmten unter einer letzten Bedingung einem neuen Bündnis zu. Die Helden sollten die Geheimnisse der Mine ergründen, wertvolle Edelsteine und vielleicht sogar den verlorenen **Sternenschild** wiederfinden. Doch diese Geschichte wird in einer anderen Legende erzählt. \nBlass und ausgezehrt wirkte der alte König. Er schien sich nur mit Mühe auf den Beinen halten zu können, als er an den Ausgang der Mine trat.*\n***\n**Aufgabe:**\nDie Helden müssen den König **sicher** zur Burg (Feld 0) eskortieren, ehe der Erzähler das **Feld “N”** auf der Legendenleiste erreicht. Sobald er auf der Burg ist, wird der Erzähler auf Feld „N“ der Legendenleiste vorgesetzt.\n***\n**Wichtig:** Für jedes Feld, das ein Held den König mitbewegt, muss der Held Willenspunkte abgeben: \nbei **2** Spielern **pro Feld 2 Willenspunkte** \nbei **3** Spielern **pro Feld 3 Willenspunkte**\nbei **4** Spielern **pro Feld 4 Willenspunkte**\n\n**Beispiel für 4 Helden**: Ein Held hat nur noch 3 Willenspunkte. Er darf den König nicht mitbewegen, da ihn die Bewegung 4 kosten würde."
+         }, {
+            "name": "In der Mine",
+            "slug": "in-der-mine",
+            "type": "custom",
+            "text": "*Es war geschafft, der König hatte sein Ziel erreicht. Doch wenig freundlich empfingen die Schildzwerge den geschwächten Brandur. Dann führten sie ihn in die Vorhalle von Cavern, dem Rachen der Mine. Fürst Hallgard, das Oberhaupt der Schildzwerge, riss die Augen weit auf, als er König Brandur erblickte. Lange war es her, dass sie sich das letzte Mal gesehen hatten und sie waren nicht in Freundschaft geschieden. Doch dann beugte Brandur das Knie und begann mit leiser, aber fester Stimme zu sprechen und es wurde eine lange Unterredung ...*\n\nErst, wenn der Erzähler den Buchstaben **\"H\"** auf der Legendenleiste erreicht hat, kann der König die Mine wieder verlassen.\n***\n**Legendenziel:**\nDie Helden müssen den König sicher von der Mine zur Burg eskortieren, bevor der Erzähler den Buchstaben \"N\" auf der Legendenleiste erreicht.\n***\n**Wichtig:** Für jedes Feld, das ein Held den König mitbewegt, muss der Held Willenspunkte abgeben: \nbei **2** Spielern **pro Feld 2 Willenspunkte** \nbei **3** Spielern **pro Feld 3 Willenspunkte** \nbei **4** Spielern **pro Feld 4 Willenspunkte**\n\nEin Held darf sich durch das Mitbewegen des Königs nicht auf Willenspunkte bringen. Er muss also mindestens I Willenspunkt übrigbehalten.\n\nSolange der König bei den Schildzwergen ist, müssen die Helden vor allem die Burg verteidigen.",
+            "subname": "Diese Karte wird aufgedeckt, sobald der König in der Mine (Feld 71) ist"
+         }, {
+            "name": "N",
+            "slug": "N",
+            "type": "letter",
+            "text": "**Die Legende nahm ein gutes Ende**, wenn ... \n... der König in der Burg ist und ... \n... die Burg erfolgreich verteidigt wurde.\n\n*Es war der Eskorte des Königs zu verdanken, dass dieser noch einmal auf seine Burg zurückkehrte. Der Regen hörte endlich auf und ein Regenbogen spannte sich über den Innenhof.\nDie Welt wirkte friedlicher. Auch wenn die Helden sich nun bald dem \"Geheimnis der Mine\" stellen mussten, so würden sie vorher ein paar ruhige Tage genießen können.*\n\n***\n**Die Legende nahm ein böses Ende**, wenn ... \n... der König nicht in der Burg ist ... \n... die Burg nicht erfolgreich verteidigt wurde.\n\n*Wenn ihr den Schwierigkeitsgrad der Legende etwas senken wollt, dann sortiert zu Anfang das zweite männliche Bauernplättchen nicht aus, sondern legt es direkt mir der Schildseite nach oben an die Burg.*"
          }
       ]
    },
    {
-      "name":"Blubblubbul",
-      "slug":"Bi-Ba-blub",
-      "abstract": "Fooobiibaaa",
-      "cards":[
-
-      ]
+      "name": "Das Volk der Bewahrer",
+      "slug": "das-volk-der-bewahrer",
+      "abstract": "",
+      "cards": [{
+         "name": "a1",
+         "slug": "a1",
+         "type": "letter",
+         "text": "\nStill leuchtete die Rietburg in der Sonne Andors, und die Helden sammelten neue Kraft nach den Schlachten vergangener Tage. Doch die Zeit der Ruhe währte nicht lange. Ein Bote brachte schlechte Nachricht zu König Brandur: Das Volk der Bewahrer des Baumes der Lieder leide an einer rätselhaften Krankheit. Stunde um Stunde ginge es ihnen schlechter. Der König befürchtete, dass ihnen nur noch wenige Tage blieben. Die Helden mussten aufbrechen, um die Hexe zu suchen; sie würde Rat wissen.\nDiese Legende wird auf der Vorderseite des Grundspielplans gespielt. Führt zuerst die Anweisungen auf der Checkliste aus. Anschließend legt ihr zusätzlich folgendes Material neben dem Spielplan bereit: \n* die Legendenkarte „Der Rat der Hexe“, die Hexe, den\nDunklen Magier Varkur, den Turm, 3 Heilkräuter \n* die 9 Karten „Das Heilkraut“ mischen und verdeckt 3\ndavon bereitlegen; die 6 übrigen Karten kommen aus dem Spiel die 5 Karten ,,Varkurs Zorn“ mischen und verdeckt 1 davon bereitlegen; die 4 übrigen Karten kommen aus dem Spiel\nWeitere Vorbereitungen: \n* Stellt Gors auf die Felder 4, 19, 24 und einen Skral auf\n30. Legt Sternchen auf C, D, F, G und N.\nLest jetzt weiter auf Legendenkarte A2."
+      }, {
+         "name": "a2",
+         "slug": "a2",
+         "type": "letter",
+         "text": "\nWenn ein Held das Feld mit dem Nebelplättchen, das den Trank der Hexe zeigt, betritt, wird die Karte „Der Rat der Hexe“ aufgedeckt und vorgelesen.\nHinweis: Ereigniskarten mit einem Bezug auf das Volk der Bewahrer und den Baum der Lieder können nicht genutzt werden. Wird eine solche Karte aufgedeckt, kommt sie aus dem Spiel, und es wird sofort eine neue Karte gezogen.\nAm Baum der Lieder (Feld 57) kann in dieser Legende nicht gehandelt werden. Deckt das Händlersymbol mit einem roten X ab.\nAufgabe: Die Helden müssen das Volk der Bewahrer des Baumes der Lieder heilen. Dazu muss die Hexe gefunden werden. Sie weiß Rat in dieser schweren Stunde. Die Hexe verbirgt sich hinter einem der Nebelplättchen\nStellt eure Helden auf die Felder, die ihrer Rangzahl entsprechen.\nJeder Held startet mit 2 Stärkepunkten. Die Gruppe erhält 5 Gold. Der Held mit dem höchsten Rang beginnt."
+      }, {
+         "name": "c",
+         "slug": "c",
+         "type": "letter",
+         "text": "\nEin lautes Dröhnen klang aus dem Gebirge, und die Befürchtungen der Helden erwiesen sich als wahr: Der Dunkle Magier Varkur erschien auf dem Verlassenen Turm.\nStellt den Turm auf Feld 83 und die Magierfigur auf den Turm.\nLange hatte der Dunkle Magier versucht, das Volk der Bewahrer anzugreifen. Nun war er seinem Ziel näher als jemals zuvor. Er hatte das Wasser ihrer Brunnen vergiftet, und nur die Heilkräuter der Helden würden seine Pläne noch durchkreuzen können. Doch Varkur würde sich auch ihnen entgegenstellen.\nEntfernt die Brunnenplättchen von den Feldern 45 und 55. Stellt Gors auf die Felder 32 und 48 und einen Skral auf 39."
+      }, {
+         "name": "d",
+         "slug": "d",
+         "type": "letter",
+         "text": "\nMit wachsendem Zorn beobachtete Varkur die Anstrengungen der Helden, das Volk der Bewahrer zu retten und sandte einen Troll aus, sie aufzuhalten.\nStellt einen Troll zum Baum der Lieder (Feld 57).\nAufgabe: Der Troll muss besiegt werden, bevor der Erzähler den Buchstaben N der Legendenleiste erreicht hat. Erst wenn der Troll besiegt ist, können die Heilkräuter zu den Bewahrern gebracht werden. Sobald alle Heilkräuter auf Feld 57 liegen, wird der Erzähler auf “N” vorgerückt.\nWichtig: Dieser Troll bleibt auf Feld 57 stehen und bewegt sich bei Sonnenaufgang nicht. Die Helden erhalten für den Sieg über den Troll keine Belohnung, und der Troll wird nicht auf Feld 80 gestellt.\nLegendenziel: Die Legende ist gewonnen, wenn der Erzähler den Buchstaben N auf der Legendenleiste erreicht hat und... ...die Burg verteidigt wurde und... ...der Troll besiegt wurde und... ...die drei Heilkräuter auf Feld 57 abgelegt wurden."
+      }, {
+         "name": "das-heilkraut-1",
+         "slug": "dasheilkraut1",
+         "type": "letter",
+         "text": "\nEins der Heilkräuter, das helfen kann, das Volk der Bewahrer des Baumes der Lieder zu heilen, wächst nur am Ufer des Flusses Narne.\nLegt ein Kräuterplättchen (Wert beliebig) auf Feld 38 und stellt einen Gor dazu. Der Gor muss besiegt werden, ehe das Plättchen eingesammelt werden kann. Bei Sonnenaufgang bewegt der Gor das Kräuterplättchen mit sich.\nDie Legende ist verloren, wenn der Gor mit dem Kräuterplättchen die Rietburg (Feld 0) erreicht, unabhängig davon, ob dort noch freie Schilde sind.\nAufgabe: Die Helden müssen das Heilkraut sammeln und zum Baum der Lieder (Feld 57) bringen, bevor der Erzähler den Buchstaben N der Legendenleiste erreicht hat."
+      }, {
+         "name": "das-heilkraut-2",
+         "slug": "dasheilkraut2",
+         "type": "letter",
+         "text": "\nEins der Heilkräuter, das helfen kann, das Volk der Bewahrer des Baumes der Lieder zu heilen, wächst nur im Schatten dunkler Bäume.\nLegt ein Kräuterplättchen (Wert beliebig) auf Feld 22 und stellt einen Gor dazu. Der Gor muss besiegt werden, ehe das Plättchen eingesammelt werden kann. Bei Sonnenaufgang bewegt der Gor das Kräuterplättchen mit sich.\nDie Legende ist verloren, wenn der Gor mit dem Kräuterplättchen die Rietburg (Feld 0) erreicht, unabhängig davon, ob dort noch freie Schilde sind.\nAufgabe: Die Helden müssen das Heilkraut sammeln und zum Baum der Lieder (Feld 57) bringen, bevor der Erzähler den Buchstaben N der Legendenleiste erreicht hat."
+      }, {
+         "name": "das-heilkraut-3",
+         "slug": "dasheilkraut3",
+         "type": "letter",
+         "text": "\nEins der Heilkräuter, das helfen kann, das Volk der Bewahrer des Baumes der Lieder zu heilen, wächst nur an der Ruine des alten Wehrturmes.\nLegt ein Kräuterplättchen (Wert beliebig) auf Feld 17 und stellt einen Skral dazu. Der Skral muss besiegt werden, ehe das Plättchen eingesammelt werden kann. Bei Sonnenaufgang bewegt der Skral das Kräuterplättchen mit sich.\nDie Legende ist verloren, wenn der Skral mit dem Kräuterplättchen die Rietburg (Feld 0) erreicht, unabhängig davon, ob dort noch freie Schilde sind.\nAufgabe: Die Helden müssen das Heilkraut sammeln und zum Baum der Lieder (Feld 57) bringen, bevor der Erzähler den Buchstaben N der Legendenleiste erreicht hat."
+      }, {
+         "name": "das-heilkraut-4",
+         "slug": "dasheilkraut4",
+         "type": "letter",
+         "text": "\nEins der Heilkräuter, das helfen kann, das Volk der Bewahrer des Baumes der Lieder zu heilen, wächst nur am Eingang der Mine der Schildzwerge.\nLegt ein Kräuterplättchen (Wert beliebig) auf Feld 71 und stellt einen Skral dazu. Der Skral muss besiegt werden, ehe das Plättchen eingesammelt werden kann. Bei Sonnenaufgang bewegt der Skral das Kräuterplättchen mit sich.\nDie Legende ist verloren, wenn der Skral mit dem Kräuterplättchen die Rietburg (Feld 0) erreicht, unabhängig davon, ob dort noch freie Schilde sind.\nAufgabe: Die Helden müssen das Heilkraut sammeln und zum Baum der Lieder (Feld 57) bringen, bevor der Erzähler den Buchstaben N der Legendenleiste erreicht hat."
+      }, {
+         "name": "das-heilkraut-5",
+         "slug": "dasheilkraut5",
+         "type": "letter",
+         "text": "\nEins der Heilkräuter, das helfen kann, das Volk der Bewahrer des Baumes der Lieder zu heilen, wächst nur am Ufer des Flusses Narne.\nLegt ein Kräuterplättchen (Wert beliebig) auf Feld 12 und stellt einen Gor dazu. Der Gor muss besiegt werden, ehe das Plättchen eingesammelt werden kann. Bei Sonnenaufgang bewegt der Gor das Kräuterplättchen mit sich.\nDie Legende ist verloren, wenn der Gor mit dem Kräuterplättchen die Rietburg (Feld 0) erreicht, unabhängig davon, ob dort noch freie Schilde sind.\nAufgabe: Die Helden müssen das Heilkraut sammeln und zum Baum der Lieder (Feld 57) bringen, bevor der Erzähler den Buchstaben N der Legendenleiste erreicht hat."
+      }, {
+         "name": "das-heilkraut-6",
+         "slug": "dasheilkraut6",
+         "type": "letter",
+         "text": "\nEins der Heilkräuter, das helfen kann, das Volk der Bewahrer des Baumes der Lieder zu heilen, wächst nur am Ufer des Flusses Narne.\nLegt ein Kräuterplättchen (Wert beliebig) auf Feld 37 und stellt einen Gor dazu. Der Gor muss besiegt werden, ehe das Plättchen eingesammelt werden kann. Bei Sonnenaufgang bewegt der Gor das Kräuterplättchen mit sich.\nDie Legende ist verloren, wenn der Gor mit dem Kräuterplättchen die Rietburg (Feld 0) erreicht, unabhängig davon, ob dort noch freie Schilde sind.\nAufgabe: Die Helden müssen das Heilkraut sammeln und zum Baum der Lieder (Feld 57) bringen, bevor der Erzähler den Buchstaben N der Legendenleiste erreicht hat."
+      }, {
+         "name": "das-heilkraut-7",
+         "slug": "dasheilkraut7",
+         "type": "letter",
+         "text": "\nEins der Heilkräuter, das helfen kann, das Volk der Bewahrer des Baumes der Lieder zu heilen, wächst nur im Schatten dunkler Bäume.\nLegt ein Kräuterplättchen (Wert beliebig) auf Feld 31 und stellt einen Gor dazu. Der Gor muss besiegt werden, ehe das Plättchen eingesammelt werden kann. Bei Sonnenaufgang bewegt der Gor das Kräuterplättchen mit sich.\nDie Legende ist verloren, wenn der Gor mit dem Kräuterplättchen die Rietburg (Feld 0) erreicht, unabhängig davon, ob dort noch freie Schilde sind.\nAufgabe: Die Helden müssen das Heilkraut sammeln und zum Baum der Lieder (Feld 57) bringen, bevor der Erzähler den Buchstaben N der Legendenleiste erreicht hat."
+      }, {
+         "name": "das-heilkraut-8",
+         "slug": "dasheilkraut8",
+         "type": "letter",
+         "text": "\nEins der Heilkräuter, das helfen kann, das Volk der Bewahrer des Baumes der Lieder zu heilen, wächst nur in engen Gebirgsspalten nahe des nördlichen Mineneingangs.\nLegt ein Kräuterplättchen (Wert beliebig) auf Feld 61 und stellt einen Gor dazu. Der Gor muss besiegt werden, ehe das Plättchen eingesammelt werden kann. Bei Sonnenaufgang bewegt der Gor das Kräuterplättchen mit sich.\nDie Legende ist verloren, wenn der Gor mit dem Kräuterplättchen die Rietburg (Feld 0) erreicht, unabhängig davon, ob dort noch freie Schilde sind.\nAufgabe: Die Helden müssen das Heilkraut sammeln und zum Baum der Lieder (Feld 57) bringen, bevor der Erzähler den Buchstaben N der Legendenleiste erreicht hat."
+      }, {
+         "name": "das-heilkraut-9",
+         "slug": "dasheilkraut9",
+         "type": "letter",
+         "text": "\nEins der Heilkräuter, das helfen kann, das Volk der Bewahrer des Baumes der Lieder zu heilen, wächst nur an den Pässen des Grauen Gebirges.\nLegt ein Kräuterplättchen (Wert beliebig) auf Feld 81 und stellt einen Gor dazu. Der Gor muss besiegt werden, ehe das Plättchen eingesammelt werden kann. Bei Sonnenaufgang bewegt der Gor das Kräuterplättchen mit sich.\nDie Legende ist verloren, wenn der Gor mit dem Kräuterplättchen die Rietburg (Feld 0) erreicht, unabhängig davon, ob dort noch freie Schilde sind.\nAufgabe: Die Helden müssen das Heilkraut sammeln und zum Baum der Lieder (Feld 57) bringen, bevor der Erzähler den Buchstaben N der Legendenleiste erreicht hat."
+      }, {
+         "name": "der-rat-der-hexe",
+         "slug": "derratderhexe",
+         "type": "letter",
+         "text": "\nEndlich! Im Nebel des Flussufers hatte einer der Helden die Hexe gefunden. Einst war sie gemeinsam mit Brandur über das Graue Gebirge geflohen, und nun würde sie helfen, das Volk der Bewahrer des Baumes der Lieder zu heilen.\nDer Held, der auf dem Feld der Hexe steht, aktiviert das Nebelplättchen und erhält damit kostenlos ihren magischen Trank. Stellt jetzt die Hexe auf dieses Feld.\nReka wusste von einer alten Überlieferung, nach der drei verschiedene Kräuter aus den unterschiedlichsten Teilen des Landes helfen würden, das Volk der Bewahrer zu heilen.\nDeckt nun nacheinander die 3 Karten “Das Heilkraut\" auf und führt die Anweisungen darauf aus.\nAufgabe: Die Helden müssen die 3 Heilkräuter einsammeln und zum Volk der Bewahrer des Baumes der Lieder (Feld 57) bringen. Sobald die 3 Heilkräuter auf Feld 57 liegen, wird der Erzähler auf den Buchstaben “N” der Legendenleiste vorgerückt.\nWichtig: Sobald das erste Heilkraut eingesammelt wurde, wird die Karte “Varkurs Zorn\" aufgedeckt."
+      }, {
+         "name": "f",
+         "slug": "f",
+         "type": "letter",
+         "text": "\nDie Helden näherten sich ihrem Ziel. Außer sich vor Wut beschwor Varkur aus dem Gift a ler Brunnen zwei Kreaturen herauf.\nStellt einen Skral auf Feld 45 und einen Wardrak auf Feld 55."
+      }, {
+         "name": "g",
+         "slug": "g",
+         "type": "letter",
+         "text": "\nEin Bote König Brandurs hatte den Baum der Lieder erreicht und berichtete von den Anstrengungen der Helden, dem Volk der Bewahrer zu helfen. Und so boten die Bewahrer noch einmal ihre letzten Kräfte auf, um die Helden zu unterstützen.\nEin Held würfelt mit 1 Heldenwürfel und liest die Auswirkung vor\nO. Die Waffenkammer Jeder Held darf sich sofort 1 beliebigen Gegenstand von der Ausrüstungstafel nehmen (keinen Trank der Hexe).\n.:: Zu neuer Stärke Jeder Held, der jetzt 7 oder weniger Stärkepunkte besitzt, erhält sofort 2 Stärkepunkte.\n::: Der Bauer Legt ein Bauernplättchen auf Feld 28. Befindet sich eine Kreatur auf dem Feld, wird diese sofort aus dem Spiel genommen (nicht auf Feld 80 stellen)."
+      }, {
+         "name": "n",
+         "slug": "n",
+         "type": "letter",
+         "text": "\nDie Legende nahm ein gutes Ende, wenn... ...der Troll besiegt wurde und... ...die drei Heilkräuter am Baum der Lieder sind und... ...die Burg erfolgreich verteidigt wurde.\nGemeinsam hatten die Helden dem Volk der Bewahrer des Baumes der Lieder helfen können, und schon bald hatten die Bewahrer sich erholt. Alte und neue Freunde hatten den Helden zur Seite gestanden. Dennoch blieben die Helden ruhelos: Varkur würde diese Niederlage nicht einfach hinnehmen; er würde auf Rache sinnen\nFan-Legende \"Das Volk der Bewahrer\"\n- Autor: Mjölnir\n-əp.nm 18ıpəfiən YP!əštojcə ?u 8ing ǝp*** \"ләрo puis хәрә1 ләр шпея ше јцэти ләзпеляән әр\n***ləpo ǝpınm 18əqsəq ļu [[OJI JəP*** ***UUəm (əpug səsoq uưə uyeu əpuƏSən !"
+      }, {
+         "name": "varkurs-zorn-1",
+         "slug": "varkurszorn1",
+         "type": "letter",
+         "text": "\nDie Helden hatten das erste Heilkraut gefunden. Bebend vor Zorn zerstörte Varkur die Hängebrücke.\nDeckt die Hängebrücke mit einem roten X ab. Die Brücke kann bis zum Ende der Legende nicht mehr betreten werden. Eine Kreatur, die Feld 48 erreicht oder bereits dort steht, bleibt einfach stehen."
+      }, {
+         "name": "varkurs-zorn-2",
+         "slug": "varkurszorn2",
+         "type": "letter",
+         "text": "\nDie Helden hatten das erste Heilkraut gefunden. Bebend vor Zorn zerstörte Varkur die Bogenbrücke.\nDeckt die Bogenbrücke mit einem roten X ab. Die Brücke kann bis zum Ende der Legende nicht mehr betreten werden. Eine Kreatur, die Feld 47 erreicht oder bereits dort steht, bleibt einfach stehen."
+      }, {
+         "name": "varkurs-zorn-3",
+         "slug": "varkurszorn3",
+         "type": "letter",
+         "text": "\nDie Helden hatten das erste Heilkraut gefunden. Bebend vor Zorn stärkte Varkur den Troll mit seinen magischen Kräften.\nDer Troll auf Feld 57 hat ab sofort 20 Stärkepunkte.\nHinweis: Sollte der seltene Fall eintreten, dass der Troll noch nicht aufgestellt wurde, nehmt das Sternchen vom Buchstaben “D” der Legendenleiste und lest sofort die Legendenkarte “D” vor."
+      }, {
+         "name": "varkurs-zorn-4",
+         "slug": "varkurszorn4",
+         "type": "letter",
+         "text": "\nDie Helden hatten das erste Heilkraut gefunden. Bebend vor Zorn trieb Varkur mit magischen Kräften die Kreaturen\nvoran.\nDie Kreaturen auf den 2 verbliebenen Kräuterplättchen bewegen sich bei Sonnenaufgang 2 Felder weit. Sollte sich auf einem dieser Felder bereits eine Kreatur befinden, wird die Kreatur mit dem Kräuterplättchen in Pfeilrichtung um 1 weiteres Feld vorgerückt.\nHinweis: Die Legende ist verloren, wenn eine Kreatur mit einem Kräuterplättchen die Rietburg (Feld 0) erreicht, unabhängig davon, ob dort noch freie Schilde sind."
+      }, {
+         "name": "varkurs-zorn-5",
+         "slug": "varkurszorn5",
+         "type": "letter",
+         "text": "\nDie Helden hatten das erste Heilkraut gefunden. Bebend vor Zorn stärkte Varkur die Gors mit seinen magischen Kräften.\nAlle Gors haben ab sofort 6 Stärkepunkte. Wird ein Gor besiegt, erhalten die Helden dennoch nur die Belohnung für einen besiegten Gor."
+      }, {
+         "name": "varkurs-zorn-6",
+         "slug": "varkurszorn6",
+         "type": "letter",
+         "text": "\nDie Helden hatten das erste Heilkraut gefunden. Bebend vor Zorn stärkte Varkur den Troll mit seinen magischen Kräften.\nDer Troll auf Feld 57 hat ab sofort 20 Stärkepunkte.\nHinweis: Sollte der seltene Fall eintreten, dass der Troll noch nicht aufgestellt wurde, nehmt das Sternchen vom Buchstaben “D” der Legendenleiste und lest sofort die Legendenkarte “D” vor."
+      }]
    }
 ]
