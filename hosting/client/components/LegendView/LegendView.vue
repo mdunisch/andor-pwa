@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div style="display: flex;">
+    <div style="display: flex; flex-wrap: wrap;">
       <ui-button
         v-for="card in currentLegend.cards.filter(i => i.type ==='letter')"
         :key="card.name"

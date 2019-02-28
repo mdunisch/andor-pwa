@@ -1,18 +1,16 @@
 <template>
   <div>
-    <h4 style="text-align: center;">Zum Starten wähle bitte eine Legende (CAHE!)aus:</h4>
+    <h4 style="text-align: center;">Zum Starten wähle bitte eine Legende aus:</h4>
 
     <ui-collapsible
       v-for="legend in legends"
-      
       :key="legend.slug"
-
       class="no-border"
       :open="open === legend.slug"
       @open="openCollapsible(legend.slug)"
     >
       <div slot="header">{{ legend.name }}</div>
-      <p>{{ legend.abstract }}</p>
+      <p style="white-space: pre-wrap;">{{ legend.abstract }}</p>
       <div style="text-align: right">
         <ui-button @click="changeLegend(legend.slug)">Legende starten</ui-button>
       </div>
