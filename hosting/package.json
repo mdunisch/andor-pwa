@@ -46,5 +46,17 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mdunisch/andor-pwa.git"
+  },
+  "sw-precache": {
+    "runtimeCaching": [
+      {
+        "urlPattern": "/^https:\/\/firebasestorage/",
+        "handler": "networkOnly"
+      },
+      {
+        "urlPattern": "/(.*)/",
+        "handler": "networkFirst"
+      }
+    ]
   }
 }
