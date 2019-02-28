@@ -1,0 +1,21 @@
+{
+  "short_name": "Andor Ext",
+  "name": "Andor Extendes",
+  "icons": [
+    {
+      "src": "/asserts/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/asserts/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ebd188",
+  "theme_color": "#ebd188",
+  "display": "standalone",
+  "orientation": "portrait"
+}

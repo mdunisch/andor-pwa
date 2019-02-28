@@ -7,9 +7,11 @@
         :raised="!card.seen"
         size="large"
         class="cardbtn"
-        v-bind:class="{ seen: card.seen }"
+        :class="{ seen: card.seen }"
         @click="handleOpenCard(card.slug)"
-      >{{ card.name }}</ui-button>
+      >
+        {{ card.name }}
+      </ui-button>
     </div>
     <hr v-if="currentLegend.cards.filter(i => i.type ==='custom').length !== 0" class="trenner">
     <div
@@ -22,9 +24,11 @@
         size="large"
         :type="card.seen ? 'primary': 'secondary'"
         class="cardbtn customcard"
-        v-bind:class="{ seen: card.seen }"
+        :class="{ seen: card.seen }"
         @click="handleOpenCard(card.slug)"
-      >{{ card.name }}</ui-button>
+      >
+        {{ card.name }}
+      </ui-button>
       <div>{{ card.subname }}</div>
     </div>
     <ui-modal
