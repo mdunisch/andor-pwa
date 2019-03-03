@@ -31,7 +31,9 @@ export default new Vuex.Store({
   state: {
     ui: {
       loading: false,
-      error: false
+      message: false
+      // Todo: Trigger from outside
+      //message: 'Neue Version der App verfügbar! <a href="javascript:window.location.reload(true)">Jetzt aktualisieren</a>'
     },
     legends: []
   },
@@ -50,10 +52,10 @@ export default new Vuex.Store({
         return legend;
       });
     },
-    showError(state, errormsg){
-      state.ui.error = errormsg;
+    showMessage(state, msg){
+      state.ui.message = msg;
     },
-    clearError: state => state.ui.error = false
+    clearMessage: state => state.ui.message = false
   },
   getters: {
     currentLegend(state){
@@ -71,7 +73,7 @@ export default new Vuex.Store({
         commit('loading', false);
       } catch(e){
         commit('loading', false);
-        commit('showError', 'Fehler beim laden der Legenden (Kein Internet?)');
+        alert('Fehler beim Laden der Legenden (kein Internet?)');
         console.error(e); // eslint-disable-line no-console
       }
     }

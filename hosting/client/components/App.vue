@@ -27,7 +27,9 @@
       </div>
       <div v-if="!mainpage">{{ activeLegend }}</div>
     </ui-toolbar>
-    <ui-alert v-show="error" type="error" @dismiss="dismissError">{{ error }}</ui-alert>
+    <ui-alert v-show="message" @dismiss="dismissMessage">
+      <span v-html="message"></span>
+    </ui-alert>
     <router-view></router-view>
   </div>
 </template>
@@ -44,8 +46,8 @@ export default {
     loading() {
       return this.$store.state.ui.loading;
     },
-    error() {
-      return this.$store.state.ui.error;
+    message() {
+      return this.$store.state.ui.message;
     }
   },
   methods: {
@@ -55,8 +57,8 @@ export default {
     handleLoading() {
       this.$store.dispatch("loadLegenden");
     },
-    dismissError() {
-      this.$store.commit("clearError");
+    dismissMessage() {
+      this.$store.commit("clearMessage");
     }
   }
 };
