@@ -3,7 +3,6 @@ import { sync } from 'vuex-router-sync';
 // Main App
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-
 Vue.use(VueRouter);
 
 import 'keen-ui/dist/keen-ui.css';
@@ -28,6 +27,16 @@ const router = new VueRouter({
       component: LegendView
     }
   ]
+});
+
+import VueAnalytics from "vue-analytics";
+
+Vue.use(VueAnalytics, {
+  id: 'UA-134329149-2',
+  debug: {
+    sendHitTask: process.env.NODE_ENV === 'production'
+  },
+  router
 });
 
 sync(store, router);

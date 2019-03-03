@@ -32,12 +32,12 @@
       <div>{{ card.subname }}</div>
     </div>
     <ui-modal
+      v-show="currentCard"
       ref="cardmodal"
       size="fullscreen"
       :title="currentCard.name"
       class="cardModal"
       transition="fade"
-      v-show="currentCard"
       @hide="handleCloseCard"
     >
       <CardPreview :card-data="currentCard || {}" :name="currentLegend.name" card-type="app" />
