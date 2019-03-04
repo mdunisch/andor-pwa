@@ -27,6 +27,7 @@
       </div>
       <div v-if="!mainpage">{{ activeLegend }}</div>
     </ui-toolbar>
+    foootest
     <ui-alert v-show="message" @dismiss="dismissMessage">
       <span v-html="message"></span>
     </ui-alert>
