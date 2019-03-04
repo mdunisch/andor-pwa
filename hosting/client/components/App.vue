@@ -50,6 +50,11 @@ export default {
       return this.$store.state.ui.message;
     }
   },
+  mounted() {
+    document.querySelector('body').addEventListener('AppUpdate', () => {
+      this.$store.commit('showMessage', 'Neue Version der App verfügbar! <a href="javascript:window.location.reload(true)">Jetzt aktualisieren</a>');
+    });
+  },
   methods: {
     historyBack() {
       this.$router.go(-1);

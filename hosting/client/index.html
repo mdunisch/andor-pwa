@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <link rel="manifest" href="/manifest.webmanifest">
-  <meta name="theme-color" content="#ebd188"/>
+  <meta name="theme-color" content="#ebd188" />
 
   <!-- Preload static images -->
   <link rel="prefetch" href="./asserts/blankocard.png" as="image">
@@ -130,17 +130,26 @@
   </div>
   <script defer src="index.js"></script>
   <script type="text/javascript">
-  if (process.env.NODE_ENV === 'production') {
-
-    if ('serviceWorker' in navigator) {
-
-      const SWUrl = '/service-worker.js';
-      navigator.serviceWorker.register(SWUrl).catch(function(error) {
-        // Registrierung fehlgeschlagen
-        console.log('SW-Registrierung fehlgeschlagen mit ' + error);
-      });
-    };
-  }
+    //if (process.env.NODE_ENV === 'production') {
+      if ('serviceWorker' in navigator) {
+        // register service worker file
+        const urlSW = './service-worker.js';
+        navigator.serviceWorker.register(urlSW).then(reg => {
+          reg.onupdatefound = () => {
+            const installingWorker = reg.installing;
+            installingWorker.onstatechange = () => {
+              switch (installingWorker.state) {
+                case 'installed':
+                  if (navigator.serviceWorker.controller) {
+                    document.querySelector('body').dispatchEvent(new Event('AppUpdate'));
+                  }
+                  break;
+              }
+            };
+          };
+        }).catch(err => console.error('[SW ERROR]', err));
+      }
+    //}
   </script>
 </body>
 

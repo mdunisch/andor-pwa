@@ -32,8 +32,6 @@ export default new Vuex.Store({
     ui: {
       loading: false,
       message: false
-      // Todo: Trigger from outside
-      //message: 'Neue Version der App verfügbar! <a href="javascript:window.location.reload(true)">Jetzt aktualisieren</a>'
     },
     legends: []
   },
@@ -43,6 +41,8 @@ export default new Vuex.Store({
       this.getters.currentCard.seen = true;
     },
     applyLoadedLegends(state, legends){
+
+      window.localStorage.clear();
 
       // Adding seen: false to every card
       state.legends = legends.map(legend => {

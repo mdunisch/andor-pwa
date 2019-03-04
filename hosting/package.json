@@ -48,6 +48,9 @@
     "type": "git",
     "url": "git+https://github.com/mdunisch/andor-pwa.git"
   },
+  "alias": {
+    "service-worker.js": false
+  },
   "sw-precache": {
     "runtimeCaching": [
       {
