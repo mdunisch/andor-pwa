@@ -130,36 +130,17 @@
   </div>
   <script defer src="index.js"></script>
   <script type="text/javascript">
+    if (process.env.NODE_ENV === 'production') {
 
-    let SW;
-
-    window.updateApp = () => {
-      // Reload SW
-      SW.postMessage({ action: 'skipWaiting' });
-      window.localStorage.clear();
-      window.location.reload(true);
-    }
-
-    //if (process.env.NODE_ENV === 'production') {
       if ('serviceWorker' in navigator) {
-        // register service worker file
-        const urlSW = './service-worker.js';
-        navigator.serviceWorker.register(urlSW).then(reg => {
-          reg.onupdatefound = () => {
-            SW = reg.installing;
-            SW.onstatechange = () => {
-              switch (SW.state) {
-                case 'installed':
-                  if (navigator.serviceWorker.controller) {
-                    document.querySelector('body').dispatchEvent(new Event('AppUpdate'));
-                  }
-                  break;
-              }
-            };
-          };
-        }).catch(err => console.error('[SW ERROR]', err));
-      }
-    //}
+
+        const SWUrl = '/service-worker.js';
+        navigator.serviceWorker.register(SWUrl).catch(function (error) {
+          // Registrierung fehlgeschlagen
+          console.log('SW-Registrierung fehlgeschlagen mit ' + error);
+        });
+      };
+    }
   </script>
 </body>
 
