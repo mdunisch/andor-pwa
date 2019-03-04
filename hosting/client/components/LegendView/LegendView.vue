@@ -29,7 +29,7 @@
       >
         {{ card.name }}
       </ui-button>
-      <div>{{ card.subname }}</div>
+      <div style="padding-right: 15px;">{{ card.subname }}</div>
     </div>
     <ui-modal
       v-show="currentCard"
@@ -118,7 +118,7 @@ export default {
 
 .customCardHolder {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .cardModal >>> .ui-modal__body {
