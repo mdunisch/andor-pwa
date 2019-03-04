@@ -27,7 +27,6 @@
       </div>
       <div v-if="!mainpage">{{ activeLegend }}</div>
     </ui-toolbar>
-    foootest
     <ui-alert v-show="message" @dismiss="dismissMessage">
       <span v-html="message"></span>
     </ui-alert>
@@ -53,7 +52,7 @@ export default {
   },
   mounted() {
     document.querySelector('body').addEventListener('AppUpdate', () => {
-      this.$store.commit('showMessage', 'Neue Version der App verfügbar! <a href="javascript:window.location.reload(true)">Jetzt aktualisieren</a>');
+      this.$store.commit('showMessage', 'Neue Version der App verfügbar! <a href="javascript:window.updateApp()">Jetzt aktualisieren</a>');
     });
   },
   methods: {

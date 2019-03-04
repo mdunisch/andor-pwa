@@ -17,7 +17,7 @@
     "andor-legendenkarte": "github:mdunisch/andor-legendenkarte",
     "keen-ui": "^1.1.2",
     "marked": "^0.6.1",
-    "parcel-plugin-sw-precache": "^1.0.4",
+    "parcel-plugin-sw-precache": "github:cyyyu/parcel-plugin-sw-precache#889b7643fcaa23196d1e809e425b0e4e417b7478",
     "vue": "^2.6.8",
     "vue-analytics": "^5.16.2",
     "vue-router": "^3.0.2",
@@ -48,10 +48,8 @@
     "type": "git",
     "url": "git+https://github.com/mdunisch/andor-pwa.git"
   },
-  "alias": {
-    "service-worker.js": false
-  },
   "sw-precache": {
+    "additionalCode": "self.addEventListener('message', function (event) { if (event.data.action === 'skipWaiting') { self.skipWaiting(); } });",
     "runtimeCaching": [
       {
         "urlPattern": "/^https://firebasestorage/",
