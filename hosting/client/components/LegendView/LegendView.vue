@@ -124,11 +124,4 @@ export default {
 .cardModal >>> .ui-modal__body {
   padding: 0;
 }
-
-.trenner {
-    border-width: 0 0 1px;
-    color: #2F4F4F;
-    border-image: linear-gradient(90deg, rgba(135, 206, 235, 0),#2F4F4F 50%, rgba(135, 206, 235, 0) 100%) 0 0 100%;
-    border-style: solid;
-}
 </style>

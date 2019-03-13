@@ -17,4 +17,11 @@ body {
     font-size: 1em;
 }
 
+.trenner {
+    border-width: 0 0 1px;
+    color: #2F4F4F;
+    border-image: linear-gradient(90deg, rgba(135, 206, 235, 0),#2F4F4F 50%, rgba(135, 206, 235, 0) 100%) 0 0 100%;
+    border-style: solid;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700');

@@ -15,6 +15,15 @@
         <ui-button @click="changeLegend(legend.slug)">Legende starten</ui-button>
       </div>
     </ui-collapsible>
+    <p></p>
+    <hr class="trenner">
+    <div
+      class="legendeHelp"
+    ><strong>Schon alle Legenden gespielt?</strong><br>
+      Helf uns doch, noch mehr Fan-Legenden in dieser App bereitzustellen!
+      <br>
+      <ui-button color="green" size="small" @click="openForm">Fan Legenden digitalisieren</ui-button>
+    </div>
   </div>
 </template>
 
@@ -39,6 +48,9 @@ export default {
     },
     openCollapsible(slug) {
       this.open = slug;
+    },
+    openForm() {
+      window.open("https://goo.gl/forms/nWkajUEA616YFjRp1");
     }
   }
 };
@@ -47,5 +59,12 @@ export default {
 <style scoped>
 .no-border >>> .ui-collapsible__body {
   border: none;
+}
+
+.legendeHelp {
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 22px;
 }
 </style>
