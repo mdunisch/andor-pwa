@@ -18,7 +18,11 @@ const loadLegends = async () => {
     return json;
   }
 
-  const response = await fetch("https://firebasestorage.googleapis.com/v0/b/andor-pwa.appspot.com/o/legends.json?alt=media&token=917ca054-8329-4075-95ce-c911771df6e7")
+  const response = await fetch("https://firebasestorage.googleapis.com/v0/b/andor-pwa.appspot.com/o/legends.json?alt=media&token=917ca054-8329-4075-95ce-c911771df6e7", {
+    headers: {
+      'Accept-Encoding': "gzip"
+    }
+  });
   if (!response.ok){
     throw new Error(response.status);
   } 
