@@ -19,7 +19,8 @@
     <hr class="trenner">
     <div
       class="legendeHelp"
-    ><strong>Schon alle Legenden gespielt?</strong><br>
+    >
+      <strong>Schon alle Legenden gespielt?</strong><br>
       Helf uns doch, noch mehr Fan-Legenden in dieser App bereitzustellen!
       <br>
       <ui-button color="green" size="small" @click="openForm">Fan Legenden digitalisieren</ui-button>
