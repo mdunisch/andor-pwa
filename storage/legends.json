@@ -33,8 +33,9 @@
          }, {
             "name": "N",
             "slug": "N",
-            "type": "letter",
-            "text": "**Die Legende nahm ein gutes Ende**, wenn ... \n... der König in der Burg ist und ... \n... die Burg erfolgreich verteidigt wurde.\n\n*Es war der Eskorte des Königs zu verdanken, dass dieser noch einmal auf seine Burg zurückkehrte. Der Regen hörte endlich auf und ein Regenbogen spannte sich über den Innenhof.\nDie Welt wirkte friedlicher. Auch wenn die Helden sich nun bald dem \"Geheimnis der Mine\" stellen mussten, so würden sie vorher ein paar ruhige Tage genießen können.*\n\n***\n**Die Legende nahm ein böses Ende**, wenn ... \n... der König nicht in der Burg ist ... \n... die Burg nicht erfolgreich verteidigt wurde.\n\n*Wenn ihr den Schwierigkeitsgrad der Legende etwas senken wollt, dann sortiert zu Anfang das zweite männliche Bauernplättchen nicht aus, sondern legt es direkt mir der Schildseite nach oben an die Burg.*"
+            "type": "end",
+            "success": "Die Legende nahm ein **gutes Ende,** wenn \n... der König in der Burg ist und ... \n... die Burg erfolgreich verteidigt wurde.\n\n*Es war der Eskorte des Königs zu verdanken, dass dieser noch einmal auf seine Burg zurückkehrte. Der Regen hörte endlich auf und ein Regenbogen spannte sich über den Innenhof.\nDie Welt wirkte friedlicher. Auch wenn die Helden sich nun bald dem \"Geheimnis der Mine\" stellen mussten, so würden sie vorher ein paar ruhige Tage genießen können.*",
+            "failure": "Die Legende nahm ein **böses Ende**, wenn ...\n... der König nicht in der Burg ist ... \n... die Burg nicht erfolgreich verteidigt wurde.\n\n*Wenn ihr den Schwierigkeitsgrad der Legende etwas senken wollt, dann sortiert zu Anfang das zweite männliche Bauernplättchen nicht aus, sondern legt es direkt mir der Schildseite nach oben an die Burg.*"
          }
       ]
    },
@@ -57,9 +58,10 @@
          "name": "N",
          "slug": "n",
          "subname": "",
-         "type": "letter",
-         "text": "Die Legende nahm ein **gutes Ende**, wenn…\n… Varkur besiegt wurde und…\n… die Burg erfolgreich verteidigt wurde.\n\n*Varkur der dunkle Magier war für immer besiegt. Der noch sichtlich geschwächte König Brandur trat vor die Helden und dankte ihnen im Namen Andors. Als Zeichen seiner Wertschätzung lies König Brandur den Helden ein Denkmal am Fuße der Burg errichten.*\n***\nDie Legende nahm ein **schlechtes Ende**, wenn...\n … sich Brandur nicht in Rekas Versteck befindet bevor der Erzähler das Feld „F“ erreicht hat oder… \n… der Troll nicht besiegt wurde bevor der Erzähler das Feld „J“ erreicht hat oder…\n… Varkur nicht besiegt wurde oder…\n… die Burg nicht erfolgreich verteidigt wurde."
-      }, {
+         "type": "end",
+         "success": "Die Legende nahm ein **gutes Ende,** wenn... \n... Varkur besiegt wurde und...\n... die Burg erfolgreich verteidigt wurde.\n\n*Varkur der dunkle Magier war für immer besiegt. Der noch sichtlich geschwächte König Brandur trat vor die Helden und dankte ihnen im Namen Andors. Als Zeichen seiner Wertschätzung lies König Brandur den Helden ein Denkmal am Fuße der Burg errichten.*",
+         "failure": "Die Legende nahm ein **böses Ende**, wenn...\n...sich Brandur nicht in Rekas Versteck befindet bevor der Erzähler das Feld „F“ erreicht hat oder... \n... der Troll nicht besiegt wurde bevor der Erzähler das Feld „J“ erreicht hat oder...\n... Varkur nicht besiegt wurde oder...\n... die Burg nicht erfolgreich verteidigt wurde."
+         }, {
          "name": "Rat der Hexe",
          "slug": "rat-der-hexe",
          "subname": "Decke diese Karte auf, sobald die Hexe gefunden wurde und sich König Brandur in ihrem Versteck befindet",
@@ -106,9 +108,10 @@
          "name": "N",
          "slug": "n",
          "subname": "",
-         "type": "letter",
-         "text": "Die Legende nahm ein **gutes Ende**, wenn...\n- die Burg erfolgreich verteidigt wurde und\n- Varkur's Schatten besiegt wurde und\n- jetzt alle Helden auf Feld 71 stehen.\n\n*Die Helden konnten die die drohende Gefahr gerade noch rechtzeitig abwehren, doch das nächste Abenteuer stand ihnen bereits bevor.*\n****\nDie Legende nahm ein **böses Ende**, wenn...\n- die Burg nicht erfolgreich verteidigt wurde oder\n- Varkur's Schatten nicht besiegt wurde oder\n- nicht alle Helden auf dem Feld 71 stehen.\n\n*Die Helden konnten die drohende Gefahr nicht abweheren. Andor war Geschichte*"
-      }, {
+         "type": "end",
+         "success": "Die Legende nahm ein **gutes Ende,** wenn... \n- die Burg erfolgreich verteidigt wurde und\n- Varkur's Schatten besiegt wurde und\n- jetzt alle Helden auf Feld 71 stehen.\n\n*Die Helden konnten die die drohende Gefahr gerade noch rechtzeitig abwehren, doch das nächste Abenteuer stand ihnen bereits bevor.*",
+         "failure": "Die Legende nahm ein **böses Ende**, wenn...\n- die Burg nicht erfolgreich verteidigt wurde oder\n- Varkur's Schatten nicht besiegt wurde oder\n- nicht alle Helden auf dem Feld 71 stehen.\n\n*Die Helden konnten die drohende Gefahr nicht abweheren. Andor war Geschichte*"
+         }, {
          "name": "In der Tarverne",
          "slug": "in-der-tarverne",
          "subname": "Diese Karte wird aufgedeckt, sobald ein Held die Taverne erreicht, auf der ein Sternchen liegt",
@@ -178,9 +181,10 @@
          "name": "N",
          "slug": "n",
          "subname": "",
-         "type": "letter",
-         "text": "Die Legende nahm ein **gutes Ende**, wenn...\n- der Baum der Lieder (Feld 63) erfolgreich verteidigt wurde und\n- Varkur's Dämon besiegt wurde und\n- jetzt alle Helden auf Feld 63 stehen.\n\n*Wieder schafften es die Helden, die Bedrohung aufzuhalten, doch sie wussten, dass das große Finale noch bevorstand.*\n***\nDie Legende nahm ein **böses Ende**, wenn...\n- Der Baum der Lieder (Feld 63) nicht verteidigt werden konnten oder\n- Varkur’s Dämon nicht besiegt wurde oder jetzt nicht alle Helden auf dem Feld 63 sind"
-      }, {
+         "type": "end",
+         "success": "Die Legende nahm ein **gutes Ende,** wenn... \n- der Baum der Lieder (Feld 63) erfolgreich verteidigt wurde und\n- Varkur's Dämon besiegt wurde und\n- jetzt alle Helden auf Feld 63 stehen.\n\n*Wieder schafften es die Helden, die Bedrohung aufzuhalten, doch sie wussten, dass das große Finale noch bevorstand.*",
+         "failure": "Die Legende nahm ein **böses Ende**, wenn...\n- Der Baum der Lieder (Feld 63) nicht verteidigt werden konnten oder\n- Varkur’s Dämon nicht besiegt wurde oder jetzt nicht alle Helden auf dem Feld 63 sind"
+         }, {
          "name": "48",
          "slug": "48",
          "subname": "Diese Karte wird aufgedeckt, sobald ein Held zum ersten Mal Feld 48 betritt",
@@ -268,9 +272,10 @@
          "name": "N",
          "slug": "n",
          "subname": "",
-         "type": "letter",
-         "text": "Die Legende nahm ein **gutes Ende**, wenn…\n- die Burg erfolgreich verteidigt wurde und\n- Varkur besiegt wurde\n\n*Nach schier endlos scheinenden Mühen konnten die Helden endlich das Land Andor befreien. Varkur wurde besiegt und es folgten viele Jahre des Friedens.*\n***\nDie Legende nahm ein **böses Ende**, wenn…\n- die Burg nicht verteidigt wurde oder\n- Varkur nicht besiegt wurde\n\n*Varkus war zu mächtig. Die Helden konnten ihr nicht stoppen und Andor war Geschichte.*"
-      }, {
+         "type": "end",
+         "success": "Die Legende nahm ein **gutes Ende,** wenn... \n- die Burg erfolgreich verteidigt wurde und\n- Varkur besiegt wurde\n\n*Nach schier endlos scheinenden Mühen konnten die Helden endlich das Land Andor befreien. Varkur wurde besiegt und es folgten viele Jahre des Friedens.*",
+         "failure": "Die Legende nahm ein **böses Ende**, wenn...\n- die Burg nicht verteidigt wurde oder\n- Varkur nicht besiegt wurde\n\n*Varkus war zu mächtig. Die Helden konnten ihr nicht stoppen und Andor war Geschichte.*"
+         }, {
          "name": "In der Tarverne",
          "slug": "in-der-tarverne",
          "subname": "Diese Karte wird aufgedeckt, sobald ein Held die Taverne erreicht, auf der ein Sternchen liegt",
@@ -381,9 +386,10 @@
          "slug": "g"
       }, {
          "name": "N",
-         "type": "letter",
-         "text": "Die Legende nahm ein **gutes Ende**, wenn... \n...der Troll besiegt wurde und... \n...die drei Heilkräuter am Baum der Lieder sind und... \n...die Burg erfolgreich verteidigt wurde.\n\n*Gemeinsam hatten die Helden dem Volk der Bewahrer des Baumes der Lieder helfen können, und schon bald hatten die Bewahrer sich erholt. Alte und neue Freunde hatten den Helden zur Seite gestanden. Dennoch blieben die Helden ruhelos: Varkur würde diese Niederlage nicht einfach hinnehmen; er würde auf Rache sinnen*\n***\nDie Legende nahm ein **böses Ende**, wenn...\n...der Troll nicht besiegt wurde oder... \n...die Heilkräuter nicht am Baum der Lieder sind oder... \n...die Burg nicht erfolgreich verteidigt wurde",
-         "slug": "n"
+         "slug": "n",
+         "type": "end",
+         "success": "Die Legende nahm ein **gutes Ende,** wenn... \n...der Troll besiegt wurde und... \n...die drei Heilkräuter am Baum der Lieder sind und... \n...die Burg erfolgreich verteidigt wurde.\n\n*Gemeinsam hatten die Helden dem Volk der Bewahrer des Baumes der Lieder helfen können, und schon bald hatten die Bewahrer sich erholt. Alte und neue Freunde hatten den Helden zur Seite gestanden. Dennoch blieben die Helden ruhelos: Varkur würde diese Niederlage nicht einfach hinnehmen; er würde auf Rache sinnen*",
+         "failure": "Die Legende nahm ein **böses Ende**, wenn...\n...der Troll nicht besiegt wurde oder... \n...die Heilkräuter nicht am Baum der Lieder sind oder... \n...die Burg nicht erfolgreich verteidigt wurde"
       }, {
          "name": "Varkurs Zorn (1)",
          "type": "custom",
