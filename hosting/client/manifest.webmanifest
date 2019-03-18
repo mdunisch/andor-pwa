@@ -1,6 +1,6 @@
 {
   "short_name": "Andor",
-  "name": "Andor Legenden",
+  "name": "Die Legenden von Andor - Fan-Legenden digital",
   "icons": [
     {
       "src": "/asserts/android-chrome-192x192.png",
@@ -8,9 +8,9 @@
       "sizes": "192x192"
     },
     {
-      "src": "/asserts/android-chrome-512x512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
     }
   ],
   "start_url": "/?utm_source=web_app_manifest",
