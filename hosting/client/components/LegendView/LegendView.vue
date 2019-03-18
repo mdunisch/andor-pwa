@@ -2,7 +2,7 @@
   <div>
     <div style="display: flex; flex-wrap: wrap;">
       <ui-button
-        v-for="card in currentLegend.cards.filter(i => i.type ==='letter')"
+        v-for="card in currentLegend.cards.filter(i => i.type ==='letter' || i.type === 'end')"
         :key="card.name"
         :raised="!card.seen"
         size="large"

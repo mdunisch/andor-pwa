@@ -18,7 +18,7 @@
     "keen-ui": "^1.1.2",
     "marked": "^0.6.1",
     "ncp": "^2.0.0",
-    "parcel-plugin-sw-precache": "1.0.4",
+    "parcel-plugin-sw-precache": "^1.0.4",
     "vue": "^2.6.9",
     "vue-analytics": "^5.16.4",
     "vue-router": "^3.0.2",
@@ -33,7 +33,7 @@
     "@babel/runtime-corejs2": "^7.3.4",
     "@vue/component-compiler-utils": "^2.6.0",
     "babel-plugin-transform-imports": "^1.5.1",
-    "eslint": "^5.15.1",
+    "eslint": "^5.15.2",
     "eslint-plugin-vue": "^5.2.2",
     "parcel-bundler": "^1.12.2",
     "vue-hot-reload-api": "^2.3.3",
@@ -50,7 +50,7 @@
     "url": "git+https://github.com/mdunisch/andor-pwa.git"
   },
   "sw-precache": {
-    "additionalCode": "self.addEventListener('message', function (event) { if (event.data.action === 'skipWaiting') { self.skipWaiting(); } });",
+    "additionalCodeFile": ".addToServiceWorker.js",
     "runtimeCaching": [
       {
         "urlPattern": "/^https://firebasestorage/",
