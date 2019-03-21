@@ -131,9 +131,7 @@
   <script defer src="index.js"></script>
   <script type="text/javascript">
     if (process.env.NODE_ENV === 'production') {
-
       if ('serviceWorker' in navigator) {
-
         const SWUrl = '/service-worker.js';
         navigator.serviceWorker.register(SWUrl).catch(function (error) {
           // Registrierung fehlgeschlagen
