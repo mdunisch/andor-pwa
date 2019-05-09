@@ -502,7 +502,7 @@
   {
     "name": "Der düstere Turm",
     "slug": "der-duestere-turm",
-    "abstract": "König Brandur hatte die Helden erneut zu sich gerufen, doch nur einen hatte diese Nachricht erreicht. Zusammen mit dem Prinzen sollte der Held sich aufmachen, Varkur zu finden und zu vertreiben. Brandur hatte Kunde erhalten, der dunkle Magier würde sich in seinem Turm am Rande des grauen Gebirges aufhalten und dort an einem neuen Plan arbeiten, die Rietburg einzunehmen. Über diesen Turm gab es viele Gerüchte, viel Gemurmel, aber scheinbar war niemand jemals dort gewesen. Das sollte sich ändern…",
+    "abstract": "König Brandur hatte die Helden erneut zu sich gerufen, doch nur einen hatte diese Nachricht erreicht. Zusammen mit dem Prinzen sollte der Held sich aufmachen, Varkur zu finden und zu vertreiben. Brandur hatte Kunde erhalten, der dunkle Magier würde sich in seinem Turm am Rande des grauen Gebirges aufhalten und dort an einem neuen Plan arbeiten, die Rietburg einzunehmen. Über diesen Turm gab es viele Gerüchte, viel Gemurmel, aber scheinbar war niemand jemals dort gewesen. Das sollte sich ändern... (eine SOLOLEGENDE)",
     "cards": [
       {
         "type": "letter",
@@ -813,6 +813,371 @@
         "subname": "Diese Karte wird nach Der Weg des Heilens In der Trollhöhle",
         "type": "custom",
         "text": "*Es war geschafft. Vor mir sah ich nun nicht mehr das schreckliche Antlitz der Trollfrau, sondern das eines jungen Mädchens. Sie weinte vor Freude, bat um Verzeihung und schenkte mir einen Schlauch mit einer köstlichen Flüssigkeit. Dann rannte sie davon, bevor ich ihr noch Schutz für den Heimweg anbieten konnte. Gerne wüsste ich, was aus ihr geworden ist.*\n\nReka kommt nun aus dem Spiel\n\nDie Heldin erhält nun einen Trinkschlauch. Stelle sie auf Feld 82 und lege die männliche Version **ohne Standfuß** dazu. Diese kann nun mit bewegt werden.\n\n**Lies nun die Karte „Brandurs Rettung“**"
+      }
+    ]
+  },
+  {
+    "name": "Der sterbende Baum",
+    "slug": "der-sterbende-baum",
+    "abstract": "Der Baum der Lieder ist von einer mysteriösen Krankheit befallen worden! Schaffen die Helden es, ihm rechtzeitig das benötigte Heilmittel zu beschaffen oder werden die Kreaturen seinen geschwächten Zustand ausnutzen, ihn einzunehmen?\nWichtig: Diese Legende wird auf der Spielplanrückseite gespielt.\n\nIhr benötigt: Grundspiel",
+    "cards": [
+      {
+        "type": "letter",
+        "name": "A1",
+        "slug": "a1",
+        "text": "Diese Legende wird auf der Rückseite des Spielplans gespielt. Führt zuerst die Anweisungen auf der **Checkliste** aus. Anschließend legt ihr folgendes Material neben dem Spielplan bereit:\n* die Hexe, den dunklen Magier, die Figur „Schildzwerge“, den Drachen, 3 Bauernplättchen und 1 Gegenstand Gift\n* 1 Trank der Hexe, der in diesem Spiel nicht bei der Hexe gekauft werden kann\n* verdeckt und gemischt: 11 silberne Ereigniskarten(sie ersetzen die goldenen Ereigniskarten), 10 Ereigniskarten „Geheimer See“, 3 Heilkräuter, 6 Runensteine, 8 Geröllplättchen, 11 Edelsteine, 2 Legendenkarten „Die Krankheit des Baumes“\n\nWeitere Vorbereitungen:\n* Legt **Sternchen auf B, D und G**.\n* Erwürfelt mit einem roten (10er) und einem Heldenwürfel (1er) die Positionen von **5 der 6 Runensteine**.\n* Legt je einen **Edelstein** verdeckt auf die Felder **6, 28, 30, 42**.\n* Legt auf die Vorratskammer (Feld **27**) **1 Trinkschlauch**, **1 Kraut** und **2 Gold**.\n* Legt **2 Geröllplättchen** auf das Feld **68** und deckt sie auf.\n* Legt je ein **rotes X** auf das **Symbol des N-Plättchens** auf **Feld 0** und auf das **Symbol des Feuerstoßes** auf der **Sonnenaufgangsleiste**.\n\n**Lest jetzt weiter auf Legendenkarte A2**\n"
+      },
+      {
+        "name": "A2",
+        "slug": "a2",
+        "subname": "",
+        "type": "letter",
+        "text": "* Stellt **Gors** auf die Felder **9, 27, 47**, **Skrale** auf **32, 43 und 60** und einen **Troll** auf **6**.\n* Der **Gor** auf Feld **27** und der **Troll** auf Feld **6** müssen **besiegt werden**, um die Gegenstände auf den jeweiligen Feldern einsammeln zu können.\n* Legt **je nach Spielerzahl** goldene Schilde (Rückseite der Bauern-Plättchen) auf das Feld **63**:\n\nbei 2 Spielern: 3 goldene Schilde\nbei 3 Spielern: 2 goldene Schilde\nbei 4 Spielern: 1 goldener Schild\n\n**Wichtig:** In dieser Legende wird bei Sonnenaufgang keine Ereigniskarte aufgedeckt und auch kein Feuerstoß ausgelöst. Außerdem können Monster wie auch auf der Vorderseite der Karte normal passiert werden, ein Alarm wird nicht ausgelöst.\n\n**Lest jetzt weiter auf Legendenkarte A3.**"
+      },
+      {
+        "name": "A3",
+        "slug": "a3",
+        "subname": "",
+        "type": "letter",
+        "text": "*Eine Nachricht vom Baum der Lieder rief die Helden zur Sorge. Die Bewohner des „Wachsamen Waldes“ hatten ihnen eine dringende Botschaft geschickt, dass der Baum Probleme habe. Genaueres wollten sie aber nur persönlich berichten.*\n\n**Die Bewegung der Kreaturen:**\nIn dieser Legende muss der Baum der Lieder verteidigt werden. Die Kreaturen im Wald und am\nMineneingang bewegen sich wie gewohnt in Richtung der Pfeile auf den Baum zu. Wenn eine der Kreaturen Feld 63 erreicht hat, wird es auf einen der goldenen Schilde gestellt und kann nicht mehr angegriffen werden. Sobald alle goldenen Schilde besetzt sind und eine weitere Kreatur Feld 63 erreicht, ist diese Legende verloren. Lest dann Legendenkarte „N“ vor.\n\nDie Kreaturen innerhalb der Mine bewegen sich ebenfalls entlang der Pfeile in Richtung Minenausgang. Erreicht eines der Monster Feld 0, bleibt es dort stehen und bewegt sich auch bei Sonnenaufgang nicht weiter. Es kann weiterhin sowohl von Feld 0, als auch von anliegenden Feldern aus angegriffen werden. Auf diesem Feld können sich beliebig viele Kreaturen gleichzeitig befinden, was aber vorerst keine Bedeutung hat.\n\n**Lest jetzt weiter auf Legendenkarte A4.**"
+      },
+      {
+        "name": "A4",
+        "slug": "a4",
+        "subname": "",
+        "type": "letter",
+        "text": "***\n**Aufgabe:**\nFeld 63 muss von einem der Helden betreten werden, um weitere Informationen zu erlangen.\n***\nSobald die Aufgabe erfüllt wurde, lest eine der Legendenkarten „Die Krankheit des Baumes“ vor.\n\nStellt jetzt eure Helden auf den Minenausgang (Feld 71).\n\nJeder Held startet mit **4 Stärkepunkten** und darf sich **1 beliebigen Gegenstand** (außer dem Trank der Hexe) von der Ausrüstungstafel nehmen.\n\nDie **Gruppe** erhält **2 Stärkepunkte** und **2 Trinkschläuche**.\n\n*Die Helden machten sich auf den Weg durch die Mine, hin zum Baum der Lieder, der ihre Hilfe benötigte!*\n\nDer Held mit dem niedrigesten Rang beginnt."
+      },
+      {
+        "name": "B",
+        "slug": "b",
+        "subname": "",
+        "type": "letter",
+        "text": "*Auf dem Weg durch die Mine erreichte die Helden eine schreckliche Nachricht! Die Schildzwerge, die ihnen im Kampf gegen die Kreaturen, die in Scharen in die Mine strömten, zu Hilfe kommen wollten, waren gefangen genommen worden!*\n\nStelle nun einen Gor auf das Feld 36, einen Skral auf Feld 26 und die Schildzwerge auf Feld 40.\n\n**Die Befreiung der Schildzwerge:**\nDie Schildzwerge können nur befreit und wie Prinz Thorald bewegt werden, wenn der Skral auf Feld 26 besiegt ist. Der Edelstein auf Feld 28 kann auch erst aufgenommen werden, wenn dieser Skral besiegt ist.\n\nVerseht nun den Skral auf Feld 26 mit einem Sternchen, diese Kreatur bewegt sich bei Sonnenaufgang nicht weiter."
+      },
+      {
+        "name": "D",
+        "slug": "d",
+        "subname": "",
+        "type": "letter",
+        "text": "*Um das schnellere Voranschreiten der Helden zu ermöglichen, befahl Fürst Hallgard einigen Zwergen, die nicht gefangen genommen worden waren, einen geheimen Tunnel durch das Gebirge zu graben. Allerdings lockte der Lärm dieser Arbeiten weitere Kreaturen aus ihren Verstecken.*\n\nStelle nun einen **Gor** auf das Feld **41** und einen **Troll** auf das Feld **69**.\n\nZwischen Feld **37 und 53** besteht nun ein **Geheimgang**, diese Felder sind damit für Bewegungen eines Helden miteinander verbunden und können normal überquert werden.\n\nMarkiert dies mit einem Sternchen, das an der entsprechenden Stelle auf das Gebirge gelegt wird."
+      },
+      {
+        "name": "G",
+        "slug": "g",
+        "subname": "",
+        "type": "letter",
+        "text": "*Mit der steigenden Anzahl von Kreaturen in der Mine erschienen auch andere zwielichtige Gestalten. Ein besonders finsterer Geselle bot den Helden sogar einen Handel an...*\n\nStellt nun einen **Gor** auf das Feld **49**, einen **Troll** auf Feld **25** und einen **Wardrak** auf Feld **20**.\n\nStellt nun die Figur **„Dunkler Magier“** auf Feld **21**, in dieser Legende dient diese Figur als zusätzlicher Händler. Er kann nicht bewegt oder angegriffen werden, Kreaturen können mit ihm auf einem Feld stehen. Er verkauft Ausrüstung und Stärkepunkte an Helden auf Feld 21, aber keinen Trank der Hexe.\n\nStattdessen verkauft er **einmalig** Gift an die Heldengruppe, sofern ein Held auf seinem Feld steht.\nDer Preis beträgt dabei:\nbei 2 Spielern = 4 Gold oder Willenspunkte\nbei 3 Spielern = 5 Gold oder Willenspunkte\nbei 4 Spielern = 6 Gold oder Willenspunkte\nGold und Willenspunkte können gemischt werden.\n\n**Wichtig:** Gegen den Drachen ist das Gift wirkungslos.\n"
+      },
+      {
+        "name": "N",
+        "slug": "n",
+        "subname": "",
+        "type": "end",
+        "text": "",
+        "success": "Die Legende nahm ein **gutes Ende**, wenn ... \n... das Heilmittel auf Feld 63 liegt und ...\n... der Baum der Lieder erfolgreich verteidigt wurde.\n\n*Nach den Strapazen in der Mine und dem Sieg über den Drachen war der Baum der Lieder endlich wieder in Sicherheit! Aus Dank veranstalteten die Elfen ein großes Festmal zu Ehren der tapferen Helden, bevor diese sich wieder auf den Weg machten. Über diese spektakuläre Rettung würde man sicher noch lange reden!*",
+        "failure": "Die Legende nahm ein **böses Ende**, wenn ...\n... das Heilmittel nicht auf Feld 63 liegt oder ...\n... der Baum der Lieder nicht verteidigt wurde.\n\n*Noch während die Helden das Heilmittel des Baumes zu beschaffen versuchten, konnten einige Kreaturen dessen Verteidigung durchbrechen. Als die Helden den Baum schließlich erreichten, war\ndieser komplett niedergebrannt, die Bewacher getötet. Dieses schreckliche Ereignis würde auf ewig als herbe Niederlage in die Geschichte Andors eingehen.*"
+      },
+      {
+        "name": "Die Krankheit des Baumes (1)",
+        "slug": "die-krankheit-des-baumes-1",
+        "subname": "Wähle eine Karte \"Die Krankheit des Baumes\"",
+        "type": "custom",
+        "text": "*Am Baum der Lieder angekommen wurde den Helden berichtet, dass dieser von einer seltsamen, dunklen Krankheit befallen worden war. Nur ein ganz bestimmtes Heilmittel würde jetzt noch helfen können, allerdings waren die Elfen, die das Mittel hatten beschaffen sollen, im Wald von einem Drachen angegriffen worden! Und dieser Drache war nun auf dem Weg zum Baum der Lieder! Sie mussten die Kreatur aufhalten und das verlorene Heilmittel finden, bevor es zu spät war!*\n\nStellt nun den **Drachen** auf Feld **43** und legt einen **Trank der Hexe** dazu. Monster, die sich auf diesem Feld befinden, werden aus dem Spiel genommen.\n\n**Achtung:** Dieser Trank der Hexe kann nicht von einem Helden eingesetzt werden. Verseht ihn deswegen mit einem Sternchen.\n***\n**Legendenziel:**\nDiese Legende ist gewonnen, wenn das Heilmittel auf dem Feld 63 liegt, bevor der Erzähler Feld „N“ auf der Legendenleiste erreicht.\n***\nBei Sonnenaufgang bewegt sich der Drache entlang der Pfeile vorwärts. Dabei wird er **vor dem Auffüllen** der Brunnen bewegt. Das Heilmittel bleibt dabei auf Feld 43 und kann von einem Helden aufgenommen werden, sobald der Drache besiegt worden ist.\n\n**Lest jetzt die Legendenkarte „Der Drache“ vor**, um euch über diese Kreatur zu informieren."
+      },
+      {
+        "name": "Die Krankheit des Baumes (2)",
+        "slug": "die-krankheit-des-baumes-2",
+        "subname": "Wähle eine Karte \"Die Krankheit des Baumes\"",
+        "type": "custom",
+        "text": "*Am Baum der Lieder angekommen, erfuhren die Helden, dass dieser von einer seltenen Krankheit befallen worden war. Nur ein einzigartiges Heilmittel würde jetzt noch helfen können, welches sich allerdings im Magen eines gefährlichen Höhlendrachen befand! Sie mussten die Kreatur töten und das Heilmittel zum Baum bringen, bevor es zu spät war!*\n\nEiner der Helden erwürfelt nun mit einem Heldenwürfel die Position des Drachen.\nBei einer **ungeraden Zahl** = Feld **20**\nBei einer **geraden Zahl** = Feld **30**\nStellt nun den Drachen auf dieses Feld und legt einen Trank der Hexe dazu. Monster, die sich auf diesem Feld befinden, werden aus dem Spiel genommen.\n**Achtung:** Dieser Trank der Hexe kann nicht von einem Helden eingesetzt werden. Verseht ihn deswegen mit einem Sternchen.\n***\n**Legendenziel:**\nDiese Legende ist gewonnen, wenn das Heilmittel auf dem Feld 63 liegt, bevor der Erzähler Feld „N“ auf der Legendenleiste erreicht.\n***\nBei Sonnenaufgang bewegt sich der Drache entlang der Pfeile vorwärts. Dabei wird er, zusammen mit dem Heilmittel, vor dem Au\u001füllen der Brunnen bewegt. Erst wenn der Drache besiegt worden ist, kann das Heilmittel aufgenommen werden.\n**Lest jetzt die Legendenkarten „Der Drache“ und „Feuerstoß des Drachen“ vor**, um euch über diese Kreatur zu informieren."
+      },
+      {
+        "name": "Der Drache",
+        "slug": "der-drache",
+        "subname": "Diese Karte wird gelesen nachdem eine andere Karte dazu auffordert",
+        "type": "custom",
+        "text": "*Der Drache war ein kleines Exemplar seiner Art, aber nicht weniger grausam. Scharfe Krallen, spitze Zähne und ledrige Flügel bestimmten sein Erscheinungsbild und sein Brüllen konnte man noch über viele Meilen hören. Er würde kein leichter Gegner für die Helden werden.*\n\nDie **Stärkepunkte des Drachen** lauten je nach Spielerzahl wie folgt:\nbei 2 Spielern = 20 Stärkepunkte\nbei 3 Spielern = 30 Stärkepunkte\nbei 4 Spielern = 40 Stärkepunkte\n\nWeiterhin bekommt der Drache **zusätzliche Stärkepunkte** für jedes Monster, welches sich auf Feld 0 befindet.\nbei 2 Spielern = 1 Stärkepunkt pro Monster\nbei 3 Spielern = 2 Stärkepunkte pro Monster\nbei 4 Spielern = 3 Stärkepunkte pro Monster\n\nDer Drache würfelt mit 2 schwarzen Würfeln und hat 12 Willenspunkte, bei 6 oder weniger Willenspunkten hat er nur noch einen schwarzen Würfel. Gleiche Würfelwerte werden addiert. Markiert diese Werte mit je einem Sternchen auf der Kreaturentafel.\n\nNach dem Tod des Drachen wird die Figur aus dem Spiel genommen. Der Erzähler wird hierbei **nicht** bewegt."
+      },
+      {
+        "name": "Feuerstoß des Drachen",
+        "slug": "feuerstos-des-drachen",
+        "subname": "Diese Karte wird gelesen nachdem eine andere Karte dazu auffordert",
+        "type": "custom",
+        "text": "*Ein Brüllen ertönte aus der Mine. Der Höhlendrache war wütend! Die Helden mussten nun vorsichtig vorgehen, denn aus den Mäulern wütender Drachen kamen selten nettere Dinge als Feuerbälle...*\n\nEntfernt das rote X von dem Feuer-Symbol der Sonnenaufgangs-Leiste. Ab sofort wird am Anfang eines jeden Tages wieder ein **Feuerstoß** ausgelöst. Die Regeln könnt ihr in Legende 4 noch einmal nachlesen, Ausgangspunkt ist in dieser Legende aber immer das Feld, auf dem sich der Drache momentan befindet. Daher wird der Feuerstoß auch nur mit einem roten Würfel ausgeführt.\n\n**Sonderregelung:** Auch Monster sind von dem Feuerstoß des Drachen betroffen. Wenn der Schaden, den sie erhalten würden über ihren Willenspunkten liegt, werden sie aus dem Spiel genommen. Der Erzähler wird dabei **nicht** weiterbewegt"
+      }
+    ]
+  },
+  {
+    "name": "Die Sage der Altvorderen",
+    "slug": "die-sage-der-altvorderen",
+    "abstract": "Diese Legende handelt von Andor noch bevor es unter dem Namen Andor bekannt wurde. Der junge Brandur führt eine Schar von Unfreien auf der Flucht vor alten Despoten über das Graue Gebirge, in der Hoffnung ein neues Leben in einem freien Land zu beginnen. Doch unerwartete Gefahren lauern ...",
+    "cards": [
+      {
+        "name": "A1",
+        "slug": "a1",
+        "subname": "",
+        "type": "letter",
+        "text": "*Diese Legende handelt von Andor noch bevor es unter dem Namen Andor bekannt wurde. Als eine kleine Schar von Unfreien vor grausamen Herrschern floh, um eine neue Heimat zu finden und sie ihr junger Anführer Brandur durch das Graue Gebirge führte. Aus alt hergebrachten Sagen wussten sie von einem fruchtbaren Land jenseits der Berge. Der Zug der Fliehenden machte sich auf, das Graue Gebirge und die darin lauernden Gefahren zu bezwingen.*\n\nFührt zuerst die Anweisung auf der **Checkliste** aus.\nAnschließend legt ihr zusätzlich folgendes Material neben dem Spielplan bereit:\n* Die Legendenkarten „Leuchtfeuer“, „Ferenc‘ Tod“, „Feentanz“, Prinz Thorald (hier sein Vater Brandur in jungen Jahren), die Nebelhexe, den Drachen, den Turm, ein Gegenstand Gift, das „N“-Plätchen, die 5 Drachenkampfkarten der Legende 5.\n* Verdeckt und gemischt 15 Kreaturenplättchen, 3 Heilkräuter, 6 Runensteine, 6 Pergamente, 5\nLegendenkarten „ Der Drachenkampf“\n\nWeitere Vorbereitungen:\n* Legt das **„N“-Plättchen** mit der roten Seite nach oben auf den Buchstaben N (bei 2 Spielern), bei 3 Spielern auf M und bei 4 Spielern auf L.\n* Legt **Sternchen** auf die Buchstaben **B und I**\n\n**Lest jetzt weiter auf Legendenkarte A2.**"
+      },
+      {
+        "name": "A2",
+        "slug": "a2",
+        "subname": "",
+        "type": "letter",
+        "text": "* Erwürfelt mit einem roten (10er) und einem Heldenwürfel (1er) die Positionen von **5 der 6 Runensteine** und von **2 Heilkräutern**.\n* Erwürfelt mit einem Heldenwürfel nacheinander, an welche Buchstaben der Legendenleiste **5 Kreaturenplättchen** verdeckt gelegt werden (nie mehr als 2 Plättchen an einem Buchstaben).\nHinweis: Wenn der Erzähler einen Buchstaben erreicht für den es sowohl eine Legendenkarte als auch Kreaturenplättchen gibt, haben die Kreaturenplättchen Vorrang.\n* Stellt jetzt **die Heldenfiguren und Prinz Thorald** auf das Feld **81**. Prinz Thorald stellt in dieser Legende den jungen **Kämpfer Brandur** dar. Brandur kann wie Prinz Thorald verwendet werden.\n\nJeder Held startet mit **3 Stärkepunkten**.\n\nDie Gruppe erhält **2 angeschlagene Schilde** (mit der Rückseite des Plättchens nach oben), **1 Helm** und **5 Gold**.\n\n**Lest jetzt auf der Legendenkarte A3 weiter.**"
+      },
+      {
+        "name": "A3",
+        "slug": "a3",
+        "subname": "",
+        "type": "letter",
+        "text": "*Sie hatten den Kamm des Gebirges bereits mühsam erklommen, ohne einer Menschenseele begegnet zu sein. Doch die Ruhe war trügerisch. Plötzlich barst wildes Geschrei durch das Lager der Helden und sie wurden von einer Horde rasender Kreaturen umzingelt.*\n\nStellt einen **Skral** auf Feld **69** (dieser Skral hat **10 Stärkepunkte und 10 Willenspunkte**; markiert die Punkte auf der Kreaturentafel) und jeweils einen **Gor** auf Feld **70 und 82**.\n\n*An den Kreaturen führte kein Weg vorbei, die Helden mussten sich verteidigen und die Kreaturen besiegen.*\n\nDer Erzähler rückt erst ein Feld weiter, wenn die dritte Kreatur besiegt wurde. Belohnungen erhalten die Helden wie gewohnt.\n\n**Aufgabe:**\nDie Helden müssen die Angreifer besiegen, die weiteren Ziele bleiben den Helden noch verborgen.\n\n*„Zu den Waffen!“, schrie Brandur.*\n\n**Der Held mit dem niedrigsten Rang beginnt.**"
+      },
+      {
+        "name": "B",
+        "slug": "b",
+        "subname": "",
+        "type": "letter",
+        "text": "*Mit dem letzten Atemzug röchelte die Kreatur: „Tarok wird euer Eindringen nicht ungestraft lassen! Bald schon wir euch der Tod in seine kalte Umarmung einschließen.“ Plötzlich wurde es dunkel um die Helden und Nebel zog auf.*\n\nLegt nun die **Nebelplättchen** auf die Felder **45, 58, 61-70, 81-82 und 84**.\n\nSteht ein Held auf einem Feld, auf dem jetzt ein Nebelplättchen liegt, wird dieses sofort aktiviert.\n\n*Blind im Nebel taumelnd erinnerte sich der junge Krieger Brandur an eine Legende aus längst vergangener Zeit. Darin hieß es: „Nur die Magie der Hexe kann den Nebel im Grauen Gebirge lichten.“ „Lasst uns die Hexe suchen, sie wird uns helfen!“, rief Brandur den vom Nebel verborgenen Helden zu.*\n\n**Aufgabe:**\nSucht die Hexe im Nebel. Ist die Hexe gefunden, wird die **Legendenkarte „Die Nebelhexe“** sofort vorgelesen.\n"
+      },
+      {
+        "name": "Nebelhexe (1)",
+        "slug": "nebelhexe-1",
+        "subname": "Diese Karte wird aufgedeckt, sobald die Hexe im Nebel gefunden wurde.",
+        "type": "custom",
+        "text": "*Plötzlich lichtete sich der Nebel.*\n\nLegt die Nebelplättchen nun zurück auf die Nebelfelder.  Die Nebelplättchen im Wald werden zuerst bedeckt.\n\n*Die Hexe erschien vor dem Krieger: „Ihr seid im Land des dunklen Tarok und sein verkohltes Herz duldet keine Gäste.“*\n*Der Held sprach mit fester Stimme: „Wir suchen eine neue Heimat, dunkle Mächte fürchten wir nicht.“*\n*Das imponierte der Nebelhexe und sie sprach: „Das Land ward einst fruchtbar, doch nun liegt es in Trümmern. Wollt Ihr euch dieses Land zu eigen machen, müsst Ihr zuerst Tarok und seine dunklen Gefährten bezwingen. Diese könnten jedoch schon früher auf euch aufmerksam werden, als euch lieb ist. Der Spähtrupp, den ihr in den Bergen bezwungen habt, wird bald beim Wehrturm an der steinernen Brücke zurückerwartet.“*\n\nLegt nun **2 Kreaturenplättchen** auf Feld **39**, stellt den **Turm** auf die Plättchen und einen **Gor** (Ferenc) auf den Turm. Markiert ihn mit einem **Sternchen**. Ferenc wird bei Sonnenaufgang nicht bewegt. Kreaturen, die auf sein Feld laufen, bewegen sich wie gewohnt entlang der Pfeilrichtung weiter. Die Helden können das Feld auch normal passieren. Ferenc muss **vom benachbarten Feld** aus in der **ersten Kampfrunde** besiegt werden, sonst werden die dunklen Mächte mittels Leuchtfeuer auf die Helden aufmerksam gemacht.\n\n**Lest nun weiter auf der Karte Nebelhexe (2).**"
+      },
+      {
+        "name": "Nebelhexe (2)",
+        "slug": "nebelhexe-2",
+        "subname": "Diese Karte wird gelesen nachdem eine andere Karte dazu auffordert",
+        "type": "custom",
+        "text": "**Aufgabe:**\nLegt am Ende dieses Tages ein **rotes X** auf das Sonnenaufgangsfeld. Ferenc muss bis zum **Ende des mit „X“ markierten Tages** getötet werden, um das Signalfeuer abzuwenden (d.h.: verbleibender Tag + 1 voller Tag).\n\n*Die Hexe zeigte sich den Helden wohlgesonnen.*\n\n***\nWürfelt nun mit einem Heldenwürfel und lest anschließend die Auswirkung vor:\n**1 und 2:** Die Gruppe erhält einen **Trank der Hexe**.\n**3 und 4:** Die Gruppe erhält den **Gegenstand Gift**.\n**5 und 6:** Die Gruppe erhält das **Nebelplättchen Hexe**. Dieses kann wie ein Trank mitgeführt werden. In einem schwierigen Kampf kann der Held die Hexe einmal zu Hilfe rufen. Die Hexe unterstützt den Helden dann **einmalig** im Kampf mit **5 Stärkepunkten**. \n***\n**Anmerkung:** Bei der Hexe kann natürlich auch wie gewohnt ein Zaubertrank gekauft werden.\n\n**Lest nun weiter auf der Karte Nebelhexe (3).**"
+      },
+      {
+        "name": "Nebelhexe (3)",
+        "slug": "nebelhexe-3",
+        "subname": "Diese Karte wird gelesen nachdem eine andere Karte dazu auffordert",
+        "type": "custom",
+        "text": "*Lange hatte die Hexe mit niemandem geredet. In der Gesellschaft des Kriegers wurde sie redselig und erzählte ihm von zwei Pergamenthälften. Dunkle Kräfte hatten diese den Feen vom Baum der Lieder einst entwendet. Seither waren sie verschollen. Man munkelt die Feen würden denjenigen, der sie findet und zurückbringt, reich beschenken.*\n\nErwürfelt nun mit einem **roten (10er)** und einem **Heldenwürfel (1er)** die Position von **2 verdeckten Pergamentrollen**.\n\nWill die Heldengruppe die Belohnung der Feen erhalten, muss sie die **beiden Pergamentrollen** zum Baum der Lieder zurückbringen. Sobald sich beide Pergamentrollen auf Feld 57 befinden, wird die Legendenkarte **„Feentanz“** vorgelesen.\n\nSollten Kreaturen auf Felder mit Pergamentrollen, Runensteinen oder Heilkräutern treten, kommen diese Gegenstände **ab sofort** aus dem Spiel. \n\n*„Doch genug geredet. Nun sputet Euch, bevor Ferenc das Feuer entzündet!“*\n"
+      },
+      {
+        "name": "I",
+        "slug": "i",
+        "subname": "",
+        "type": "letter",
+        "text": "*Zu nah schon waren die Helden der Burg gekommen. Tarok rief seine Kreaturen zur Burg und sandte einen Feuerstoß in Richtung der Helden.*\n\nStellt nun einen **Troll** auf Feld **5** und Feld **9** und einen **Gor** auf Feld **12**. Alle Helden, die nun auf der Burg stehen oder auf einem der Burg angrenzenden Felder, verlieren durch den Feuerstoß 2 Willen**spunkte.** "
+      },
+      {
+        "name": "N",
+        "slug": "n",
+        "subname": "",
+        "type": "end",
+        "text": "",
+        "success": "Die Legende nahm ein **gutes Ende**, wenn…\n…die Hexe gefunden…\n…der Gor Ferenc getötet…\n…und der Drache besiegt wurde.\n \n*Verletzt und erschrocken wich Tarok zurück, er breitete seine Flügel aus und erhob sich in die Luft. Mit gellendem Schrei flog er zum Grauen Gebirge. Brandurs Willenskraft und  Entschlossenheit obsiegten und das Land war befreit. Die Helden erhoben Brandur zu Ihrem König, welcher nun das Land der Freien ausrief. Andor war geboren. Die dunklen Kreaturen zogen von dannen. Die Helden ließen sich nieder und brachten ihre neue Heimat zum Blühen. Händler und Handwerker kamen ins Land, Gaukler und Zigeuner, buntes Volk zogen durch die Straßen und boten ihre Künste dar. Die neu erbaute Rietburg wachte achtsam über die Bewohner Andors.*\n\n*Doch die Gefahr war nicht für alle Zeit gebannt…*",
+        "failure": "Die Legende nahm ein **böses Ende** wenn…\n…die Hexe nicht gefunden wurde oder…\n…Ferenc nicht getötet wurde oder…\n…der Drache nicht besiegt wurde.\nDie Helden wichen zurück. Der Drache hatte sie Ihre Kräfte beraubt. Gezeichnet vom Kampf flohen sie Schutz suchend. Das Land blieb in den Klauen des Drachen. "
+      },
+      {
+        "name": "Leuchtfeuer",
+        "slug": "leuchtfeuer",
+        "subname": "Diese Karte wird aufgedeckt, wenn es nicht gelingt Ferenc zu töten, bevor er das Feuer gelingt bevor er das Feuer entzündet.",
+        "type": "custom",
+        "text": "*Ferenc erspähte die Truppe. Hastig entzündete er das Leuchtfeuer und sprang mit Kampfgebrüll vom Wehrturm herab.*\n\nDer Gor Ferenc bewegt sich sofort **ein Feld entlang der Pfeilrichtung**. Von nun an bewegt er sich wie alle Kreaturen. Erreicht Ferenc die Burg, springt der Erzähler auf das „N“-Plättchen und die Legende ist verloren.\n\n*In der Ferne hörten die Helden ein Grollen. Am Horizont sahen sie den Schatten von Tarok dem Drachen aufsteigen. Tarok war außer sich, wutentbrannt sendete er einen Feuerstoß in Richtung der Helden.*\n\nWürfelt nun mit einem Heldenwürfel. Bei **geraden Werten** wird die **steinerne Brücke** zerstört. Bei **ungeraden** die **Hängebrücke**. Legt ein **rotes X** auf die zerstörte Brücke. Sie ist nun nicht mehr passierbar. Die Heldengruppe verliert **5 Willenspunkte**. Die **2 Kreaturenplättchen** unter dem Turm werden aufgedeckt und nacheinander vorgelesen. Die Figur **Drache** wird auf die Burgruine gestellt. Markiert die **Stärkepunkte** des Drachens mit einem **Sternchen**. Bei **2 Spielern 20, bei 3 Spielern 30, bei 4 Spielern 44**. Der Drache hat **3 schwarze Würfel**, gleiche Werte werden addiert. Der Gegenstand Gift kann nicht gegen den Drachen verwendet werden. \n***\n**Legendenziel:**\nBesiegt und vertreibt Tarok von der Burgruine (Rietburg). Brandur muss am Sieg über den Drachen beteiligt sein. Für jede Kreatur, die es auf die Burgruine schafft, wird das „N“- Plättchen sofort ein Buchstabenfeld weiter nach unten gesetzt und die Kreatur kommt aus dem Spiel (gilt auch für Figuren, die bereits dort stehen). Wird der Drache besiegt, rutscht der Erzähler sofort auf Feld N der Legendenleiste. \n***"
+      },
+      {
+        "name": "Ferenc Tod",
+        "slug": "ferenc-tod",
+        "subname": "Diese Karte wird aufgedeckt, wenn Ferenc vor dem Entzünden des Leuchtf vor dem Entzünden des Leuchtf em Entzünden des Leuchtfeuers getötet wird.",
+        "type": "custom",
+        "text": "*„Muss Tarok den großen Feuerspeier auf der Burgruine warnen“, stieß Ferenc nach Atem ringend aus, bevor er für immer verstummte und seine Waffen von sich streckte. Nun dämmerte den Helden, dass ein Drache mit Namen Tarok über das Land herrschte.*\n\nLegt nun einen **Bogen** und ein **Fernrohr** auf den Turm. Die **2 Kreaturenplättchen** unter dem Turm kommen nun **unangetastet** aus dem Spiel. Die Figur **Drache** wird auf die Burgruine gestellt. Markiert die **Stärkepunkte** des Drachens mit einem **Sternchen**. Bei **2 Spielern 20, bei 3 Spielern 30, bei 4 Spielern 44**. Der Drache hat **3 schwarze Würfel**, gleiche Werte werden addiert. Der Gegenstand Gift kann nicht gegen den Drachen verwendet werden.\n***\n**Legendenziel:**\nBesiegt und vertreibt Tarok von der Burgruine (Rietburg). Brandur muss am Sieg über den Drachen beteiligt sein. Für jede Kreatur, die es auf die Burgruine schafft, wird das „N“- Plättchen sofort ein Buchstabenfeld weiter nach unten gesetzt und die Kreatur kommt aus dem Spiel (gilt auch für Figuren, die bereits dort stehen). Wird der Drache besiegt, rutscht der Erzähler sofort auf Feld N der Legendenleiste.\n***"
+      },
+      {
+        "name": "Feentanz",
+        "slug": "feentanz",
+        "subname": "Diese Karte wird aufgedeckt, wenn beide Pergamente auf Feld Pergamente 57 abgelegt wurden.",
+        "type": "custom",
+        "text": "*Süße Klänge erfüllten die Baumkronen und die Feen tanzten im Licht. Aus Dankbarkeit über die zurückgebrachten Pergamentrollen beschenkten die Feen die Heldengruppe reich.*\n\nDie Helden erhalten **den Wert des niedrigeren Pergaments** in **Gold oder Willenspunkten**. Das Geschenk der Feen kann nicht auf Gold und Willenspunkte aufgeteilt werden; Willenspunkte können auf die Gruppe verteilt werden, Gold kann nur unter den Helden, die auf Feld **57** stehen, aufgeteilt werden. Die Pergamente kommen aus dem Spiel. \n"
+      }
+    ]
+  },
+  {
+    "name": "Der Verräter",
+    "slug": "der-verrater",
+    "abstract": "Der Drache ist besiegt, doch in Andor kehrt keine Ruhe ein. Dunkle Kreaturen dringen immer wieder bis kurz vor die Burg vor. Es drängt sich der Verdacht auf, dass sich ein Held mit dem Böse verbündet hat und den Kreaturen die geheimen Schwachstellen im Verteidigungssystem übermittelt. Wie lange können die Kreaturen noch abgewehrt werden und wer steckt hinter dem Verrat. Seid ihr bereit gegen einen der euren zu kämpfen und ihn wieder zum Guten zu bekehren?\n\nBesonderheiten: Legende ist nur für 3 bis 4 Spieler geeignet.\n\nIhr benötigt: Grundspiel",
+    "cards": [
+      {
+        "type": "letter",
+        "name": "A1",
+        "slug": "a1",
+        "text": "*Der Drache war besiegt. Doch in Andor kehrte keine Ruhe ein. Immer wieder berichteten Bauern  von finsteren Kreaturen, die durch Andor zogen und ihr Unwesen trieben. Denn Kreaturen gelang es sogar immer wieder bis kurz vor die Burg vorzudringen, wo sie nur knapp von den äußeren Verteidigungsanlagen zurückgeschlagen werden könnten. Es drängte sich der Verdacht auf, dass es einen Verräter in den eigenen Reihen geben könnte. Denn die Kreaturen griffen nur die schwach besetzten Verteidigungsanlagen an. Dies konnte kein Zufall sein da sich die Besetzung immer an den geheimen Wachplan hielt. Jemand musste mit den Kreaturen im Bunde sein.*\n\nFührt zuerst die Anweisungen auf der **Checkliste** aus.\nAnschließend legt ihr zusätzlich folgendes Material neben dem Spielplan bereit:\n* Die Hexe\n* Figur „Dunkler Magier“\n* 2 Bauernplättchen,\n* Gegenstand „Gift“\n* **verdeckt und gemischt**: 6 Runensteine, 3 Heilkräuter, 6 Pergamente, 15 Kreaturenplättchen\n* Hinweiskarten „Varkurs Rat“, „Die Enttarnung“\n\n**Lest jetzt weiter auf Legendenkarte A2.**"
+      },
+      {
+        "name": "A2",
+        "slug": "a2",
+        "subname": "",
+        "type": "letter",
+        "text": "* Stellt **Gors** auf die Felder **25, 27, 49 und 52**\n* Stellt **Skrale** auf die Felder **26 und 50**\n* Erwürfelt mit einem roten (10er) und einem Heldenwürfel (1er) die Positionen von **5 der 6** Runensteine und von 3 Heilkräutern.\n* Legt je **ein Kreaturenplättchen verdeckt** auf die Felder **„B“, „C“ und „D“** der Legendenleiste und führt diese aus sobald der Erzähler diese Felder erreicht\n* Legt jeweils ein **Bauernplättchen** auf die Felder **24, 28, 32 und 40.**\n\n**Lest jetzt weiter auf Legendenkarte A3.**"
+      },
+      {
+        "name": "A3",
+        "slug": "a3",
+        "subname": "",
+        "type": "letter",
+        "text": "*Der schreckliche Verdacht, dass einer von ihnen der Verräter sei, brachte zwischen den Helden große Zwietracht. Es musste eine Aussprache stattfinden. So vereinbarten die Helden, dass sie sich alle beim nächsten Vollmond am Baum der Lieder einfinden. Dort sollte die Anhörung unter Beisein der Ältesten stattfinden.*\n\nLegt nun ein Sternchen auf Feld 57.\n\n**Aufgabe:**\nAlle Helden müssen sich gemeinsam zum Baum der Lieder (Feld 57) begeben um der Anhörung beizuwohnen. Alle Helden müssen dies erreichen und gemeinsam auf Feld 57 stehen bevor der Erzähler das Feld „E“ der Legendenleiste erreicht. Ansonsten ist die Legende sofort verloren.\n\nSind alle Helden gemeinsam auf Feld 57 lest die Hinweiskarten „Die Enttarnung“ vor.\n\nLegt nun ein Sternchen auf das Feld „E“ der Legendenleiste.\n\n**Lest jetzt weiter auf Legendenkarte A4.**"
+      },
+      {
+        "name": "A4",
+        "slug": "a4",
+        "subname": "",
+        "type": "letter",
+        "text": "* Der Held mit dem niedrigsten Rang beginnt.\n* Stellt eure Helden auf die Burg (Feld 0)\n* Jeder Held startet mit **2 Stärkepunkten.**\n* Die Gruppe erhält…\n * 5 Gold\n * 4 Stärkepunkte\n***\n**Legendenziel:**\nDie Legende ist gewonnen, wenn der Erzähler das Feld „N“ auf der Legendenleiste erreicht hat und…\n\n… die Burg verteidigt wurde und…\n… der Verräter gestellt und besiegt wurde bevor der Erzähler das Feld „N“ erreicht hat\n***"
+      },
+      {
+        "name": "N",
+        "slug": "n",
+        "subname": "",
+        "type": "end",
+        "text": "",
+        "success": "Die Legende nahm ein **gutes Ende**, wenn…\n… der Verräter besiegt bzw. bekehrt wurde und…\n… die Burg erfolgreich verteidigt wurde.",
+        "failure": "Die Legende nahm ein **schlechtes Ende**, wenn…\n… der Verräter nicht besiegt bzw. bekehrt wurde oder\n… die Burg nicht erfolgreich verteidigt wurde."
+      },
+      {
+        "name": "Die Enttarnung (1)",
+        "slug": "die-enttarnung-1",
+        "subname": "Lest die Karte wenn alle Helden Feld 57 erreicht haben",
+        "type": "custom",
+        "text": "*Am Baum der Lieder zeigte der Verräter nun sein wahres Gesicht. Die anderen Helden waren bestürzt, dass es einer der ihren war, welcher Andor den Rücken zugekehrte hatte und sich dem Bösen hingab. Der Verräter machte keinen großen Hehl daraus wer ihm zu solch großer Macht verholfen hatte. Es war Varkur der dunkle Magier. Des Weiteren prahlte er davon Varkur besiegt und ihn an einen geheimen Ort verbannt zu haben. Nun wolle er ganz Andor erobern.*\n\n**Feststellung des Verräters:**\n1. Jeder Held würfelt mit einem Heldenwürfel.\n2. Addiert die Augenzahl zu den Stärkepunkten.\n3. Der Held mit der niedrigsten Summe ist der Verräter.\n4. Bei Gleichstand der Held mit den niedrigsten Willenspunkten.\n\n**Besonderheiten:**\nSollte der Verräter Gegenstände bzw. Gold bei sich tragen so werden diese auf das Feld 57 abgelegt und können von den anderen Helden aufgenommen werden. Er kann die Aktion „Laufen“ bis einschließlich Feld „K“ im gewohnten Maße ausführen. Ab Feld „I“ bleibt er auf seinem aktuellen Feld fest stehen und darf sich fortan nicht mehr bewegen. \n\nBetritt er Felder auf denen sich Bauernplättchen befinden, so werden diese aus dem Spiel genommen."
+      },
+      {
+        "name": "Die Enttarnung (2)",
+        "slug": "die-enttarnung-2",
+        "subname": "Lest diese Karte nach der Karte \"Die Enttarnung (1)\"",
+        "type": "custom",
+        "text": "**Besonderheiten:**\n* Des Weiteren würfelt der Verräter in allen Kampfrunden für die Kreaturen.\n* Ab dem Feld „E“ der Legendenleiste darf er bei Tagbeginn eine beliebe Kreatur (außer Wardraks) auf die Felder **16-38** des Spielfeldes setzten. Dies passiert erst dann, wenn ein neuer Tag beginnt und bereits alle Aktionen auf dem Sonnenaufgangsfeld durchgeführt wurden.\n* Der Verräter kann keine Gegenstände aufnehmen, noch aktiviert er Nebelplättchen.\n* Jedoch kann der Verräter Brunnen leeren und dadurch Willenspunkte sammeln.\n* Seine Sonderfähigkeit behält der Verräter.\n* Ereigniskarten werden ignoriert.\n\n*Den Helden war klar, dass sie den Verräter nur mit Varkurs Hilfe stoppen konnten. Aber dieser musste zuerst einmal gefunden werden. Den Helden kam in Erinnerung, dass der Verräter immer Tagebuch geführt hat. Die Hoffnung bestand nun darin, die Tagebücher zu finden und Varkurs Exil ausfindig zu machen.*\n\nWürfelt nun mit einem **roten (10er)** und einem **Heldenwürfel (1er)** die Position der Pergamente aus.\n3 Spieler = 2 Pergamente\n4 Spieler = 3 Pergamente"
+      },
+      {
+        "name": "Die Enttarnung (3)",
+        "slug": "die-enttarnung-3",
+        "subname": "Lest diese Karte nach der Karte \"Die Enttarnung (2)\"",
+        "type": "custom",
+        "text": "***\n**Aufgabe:**\nFindet die Pergamente und bringt diese zur Taverne (Feld 72).\n***\nIst dies geschehen addiert zu den Werten auf den Pergamenten 20 hinzu. Stellt nun auf dieses Feld die Figur „Varkur der dunkle Magier“. Mindestens ein Held muss sich nun zu Varkurs Exil begeben, um Varkurs Rat einzuholen. Alle diese Aufgaben müssen erfüllt sein, bevor der Erzähler das Feld „I“ der Legendenleiste erreicht. Ansonsten ist die Legende verloren.\n\nLegt nun ein Sternchen auf das Feld „I“ der Legendenleiste. Befindet sich ein Held in Varkurs Versteck lest die Hinweiskarten „Varkurs Rat“ vor.\n\nDen Helden steht ab sofort ein weiterer Schild in der Burg zur Verfügung. Bei 3 Spieler stehen den Helden die Schilde für 2 Spieler zur Verfügung und bei 4 Spieler die Schilde für 3 Spieler. Eine weitere Kreatur kann dadurch in die Burg eindringen, ohne dass die Legende verloren ist."
+      },
+      {
+        "name": "Varkurs Rat (1)",
+        "slug": "varkurs-rat-1",
+        "subname": "Diese Karte wird gelesen nachdem eine andere Karte dazu auffordert",
+        "type": "custom",
+        "text": "*Die Aufgabe war schwer. Doch es war geschafft. Die Tagebücher des Verräters befanden sich im Besitz der treuen Helden und sie konnten Varkurs Versteck ausfindig machen. Die einstigen Feinde waren sich einig, sie mussten den Verräter aufhalten. Varkur gab den Helden einen uralten Zaubertrank, das „Gift“. Dieses sollte den Helden im Kampf gegen den Verräter helfen.*\n\nDie Helden erhalten nun den Gegenstand „Gift“. Wirkung von „Gift“:\n* Der Verräter wird bekehrt und sagt dem Bösen ab.\n* Die Helden entscheiden vor dem Würfelwurf des Verräters ob sie „Gift“ einsetzen.\n* Setzen die Helden „Gift“ ein und gewinnen die Kampfrunde ist der Verräter sofort besiegt bzw. bekehrt. \n* Gift kann zweimal eingesetzt werden Vorder- bzw. Rückseite um den Kampf vorzeitig zu gewinnen.\n\nWurde das Gift verbraucht ohne zu gewinnen, müssen die Willenspunkte durch Kampfrunden auf 0 gesetzt werden um ihn zu besiegen.\n\n*Die Helden hofften, dass sie ihren einstigen Freund bekehren können und ihn wieder für das Gute gewinnen konnten.*"
+      },
+      {
+        "name": "Varkurs Rat (2)",
+        "slug": "varkurs-rat-2",
+        "subname": "Lest diese Karte nach der Karte \"Varkurs Rat (1)\"",
+        "type": "custom",
+        "text": "**Verräter:**\n**Stärkepunkte:**\nbei 3 Spielern = 20\nbei 4 Spielern = 30\n**Willenspunkte:** laut Heldentafel\n**Würfel:** 2 schwarze Würfel, gleiche Würfelwerte werden addiert. Besitzt er keine\n7 Willenspunkte mehr, hat er nur noch 1 schwarze Würfel.\n\n**Aufgabe:**\nDie Helden müssen den Verräter im Kampf besiegen bzw. bekehren. Dabei müssen sich die angreifenden Helden auf dem gleichen Feld (angrenzendes Feld falls Sonderfähigkeit) wie der Verräter befinden.\n***\n**Legendenziel:**\nDie Legende ist gewonnen, wenn der Erzähler das Feld\n„N“ auf der Legendenleiste erreicht hat und…\n… der Verräter besiegt bzw. bekehrt wurde und…\n… die Burg erfolgreich verteidigt wurde.\n***"
+      }
+    ]
+  },
+  {
+    "name": "Aus den Minen erhebt sich ein Schrecken",
+    "slug": "aus-den-minen-erhebt-sich-ein-schrecken",
+    "abstract": "Aus den Minen erhebt sich ein Schrecken...\nInfo: Diese Legende entstand im Deutschunterricht einer 8ten Klasse.\n\nIhr benötigt: Grundspiel",
+    "cards": [
+      {
+        "name": "A",
+        "slug": "a",
+        "subname": "",
+        "type": "letter",
+        "text": "*Fahles Dämmerlicht tauchte die Rietburg in Schatten. Gerüchte über verhexte Kreaturen versetzten die Bewohner Andors in Schrecken. Sollte Varkur, der Dunkle Magier zurückgekehrt sein, mächtiger und grausamer, als je zuvor?*\n\n*Am Morgen des nächsten Tages hatte König Brandur Gewissheit. Ein Bauer hatte am Brunnen bei den Minen eine Gestalt, ähnlich einem Gor, aber mit der Stärke eines Skrals beobachtet. Da konnten nur Zauberkräfte im Spiel sein. Also rief der König die Helden zusammen, die schon  einmal erfolgreich gegen Varkur in die Schlacht gezogen waren.*\n\nFührt zunächst die Anweisungen auf der **Checkliste** aus. Dann legt ihr folgendes Material neben den Spielplan:\n* 5 Runensteine, 3 Heilkräuter, Figur „Dunkler Magier”, Figur „Prinz Thorald”, Drachen.\n* Stellt **Gors** auf die Felder **57, 58, 32 und 37** und je einen **Skral** auf Feld **56 und Feld 3**.\n* Zwei **Bauernplättchen** liegen auf den Feldern **28 und 17**.\n* Legt **Runensteine** auf die Felder **28, 36, 48, 51, 66** und **Heilkräuter** auf die Felder **35, 60 und 51**.\n\nDie Gruppe bekommt **ein Schild** und **einen Bogen**. Bei **2 Spielern 3 Gold**, bei **3 Spielern 4 Gold** und bei **4 Spielern 5 Gold**. Jeder Held hat **7 Willenspunkte** und **3 Stärkepunkte**. Die Helden starten auf den Feldern ihrer Rangzahl. Der Held mit dem niedrigsten Rang beginnt das Spiel."
+      },
+      {
+        "name": "E",
+        "slug": "e",
+        "subname": "",
+        "type": "letter",
+        "text": "*Die Schildzwergeberichteten, sie haben unmenschliche Geräusche aus den Minen vernommen. Der dunkle Magierist dort am Werk und verhext weitere Kreaturen, die aus den Minen auftauchen.*\n\nStellt einen **Wadrak** auf Feld **68** und zwei **Gors** auf **70 und 66** und einen **Skral** auf Feld **48**. **Kennzeichnet** sie alle mit einem **Sternchen**. Denn sie sind verhext. Ihre **Stärkepunkte** sind jeweils einer **höheren Kreatur gleich**. Bei einem Sieg gegen die Kreaturen bekommen der Held oder die Heldengruppe auch die Belohnung der jeweils höheren Kreatur!\n"
+      },
+      {
+        "name": "I",
+        "slug": "i",
+        "subname": "",
+        "type": "letter",
+        "text": "*Prinz Thorald hatte die verzweifelten Hilferufe der Helden gehört und kam ihnen zu Hilfe.*\n\nStellt den **Prinz** auf Feld **72**. Nach vier Feldern auf der Legendenleiste kommt er wieder aus dem Spiel."
+      },
+      {
+        "name": "K",
+        "slug": "k",
+        "subname": "",
+        "type": "letter",
+        "text": "*Verärgert über die Siege der Helden, tauchte der Dunkle Magierplötzlich selbst aus dichtem Nebel im Wald auf. Er hatte einen verzauberten Drachen mit zwei Köpfen bei sich.*\n\nDer **Drache** hat bei **zwei Spielern 30 Stärkepunkte**, bei **drei Spielern 40** und bei **vier Spielern 50** Stärkepunkte. Stellt den **Drachen** auf Feld **60**. Besiegt ihn bevor er die Burg erreichen kann. Bei einem Sieg über den Drachen schlagt ihr gleichzeitig **Varkur** in die Flucht. Mit Varkur **verschwinden** alle verhexten Kreaturen.\n\nBei einem Sieg über den Drachen bekommt der Held oder die Heldengruppe **6 Willenspunkte** oder **6 Gold**.\n\n*Die Helden waren erschöpft und mutlos. In der Taverne konnten sie sich ausruhen und neue Kraft schöpfen.*\n\nJeder Held, der von nun an die Taverne betritt, erhält **1 Stärkepunkt** und kann seine **Willenspunkte auf 10 auffüllen**.\n\nAus den Minen entliefen weitere verhexte Kreaturen. Stellt einen **Gor** auf Feld **26**, einen **Gor** auf Feld **38** und einen **Skral** auf Feld **38**. Denkt daran, sie haben alle die Stärke einer höheren Kreatur!"
+      },
+      {
+        "name": "N",
+        "slug": "n",
+        "subname": "",
+        "type": "end",
+        "text": "",
+        "success": "Die Legende nahm ein **gutes Ende**, wenn...\n...die Burg erfolgreich verteidigt wurde...\n...der Drache besiegt wurde und Varkur damit in die Flucht geschlagen wurde.\n\n*Varkur hat sich zurückgezogen, seine Kreaturen konnten diesmal nichts ausrichten.*",
+        "failure": "Die Legende nahm ein **böses Ende**, wenn...\n...die Burg nicht verteidigt wurde...\n...der Drachen nicht besiegt wurde...\n\n*Varkur ist nun Herrscher über Andor.*"
+      }
+    ]
+  },
+  {
+    "name": "Stein, Wein und Gebein",
+    "slug": "stein-wein-und-gebein",
+    "abstract": "Bedrohliche Mächte wirkten über ganz Andor, da und dort strebten Kreaturen zur Rietburg. Steckte der dunkle Magier dahinter oder gar noch Schlimmeres? Und auch der schwarze Tempel am fernen Horizont sandte sein unheilvolles Licht von der Spitze. Die Helden sollten unverzüglich zur Rietburg gehen und ihre neue Waffe in Betrieb nehmen. Sie hatten nämlich bei der Eroberung des Sternenschildes das Katapult von zwei Trollen erbeutet.\n\nInfo: Spiel für vier Helden. Es wird Material aus der Sternenschild-Erweiterung benötigt.\n\nErfahrung: Die Ära des Sternenschildes mit Bedrohung 4 (Katapult) sollte gemeistert sein.",
+    "cards": [
+      {
+        "name": "A1",
+        "slug": "a1",
+        "subname": "",
+        "type": "letter",
+        "text": "*Die Heldenstreiften links von der Narne durch das Rietland. Überall waren Kreaturen zu sehen. Ob sie ihren Meister suchten?*\n\nFührt zuerst die Anweisungen auf der **Checkliste** aus.\nStellt eure Helden auf die Felder, die ihrer Rangzahl entsprechen. Jeder Held startet mit **2 Stärkepunkten** und **7 Willenspunkten**. Die Gruppe bekommt **5 Gold**. Stellt **Gors** auf die Felder **3, 4, 13**, Skrale auf die Felder **16, 18 und 48** und einen **Troll** auf **55**. Bestimmt nun wie üblich die Positionen von **5 der 6 verdeckten Runensteine**.\n\n*Wo war nur Varkur? Er hatte den Tempel auf der Suche nach einem heilenden Kraut verlassen. Ken Dorr war wieder bestens informiert. Gerüchte besagten, daß man ihn in der Nähe des südlichen Waldes gesehen hat. Nur die Zerstörung seines Tempels würde den genauen Aufenthaltsort preisgeben.*\n\nBaue den **dunklen Tempel** zusammen und setze ihn auf Feld **83**. Lege in das Fundament, in die Tempelmitte und zwischen die Zinnen der Tempelmitte unter der Spitze jeweils verdeckt einen **Edelstein**.\n\n*In der Burg stand das erbeutete Katapult auf einen zweirädrigen Wagen. Der Transport und die Bedienung war aber gar nicht so einfach und benötigte die gemeinsame Muskelkraft von zwei Helden. Die Fürsten mussten diese mächtige Waffe unbedingt in Stellung bringen, um damit den dunklen Tempel anzugreifen.* \n\n**Lest jetzt weiter auf Legendenkarte A2.**"
+      },
+      {
+        "name": "A2",
+        "slug": "a2",
+        "subname": "",
+        "type": "letter",
+        "text": "Stelle das **Katapult** auf die Rietburg. Lege verdeckt die **8 Geröllplättchen** auf die **Legendenfelder B - I**.\nMit den Geröllsteinen wird diesmal der Tempel beschossen. Die Steine werden aktiviert, wenn der Erzähler auf das Legendenfeld gesetzt wird. Die Zahl gibt die maximale Reichweite für einen Treffer an. Die kürzeste Entfernung von der Rietburg (Feld 0) bis zum Tempel (Feld 83) beträgt 8 Felder (z.B. -6-17-16-48-47-46-64-83).\nDa Geröllsteine auch Werte kleiner 8 haben, sollte das Katapult in Richtung Tempel bewegt werden. Für das Bewegen wie für das Katapultieren braucht es **2 Helden**; diese müssen sich auf dem Feld des Katapults befinden. Wird das Katapult um ein Feld bewegt, kostet das **beide \nHelden jeweils 1 Stunde** auf der Zeittafel und jeweils **4 Willenspunkte**.\n\nKreaturen überspringen das Katapult nicht. Befindet sich eine Kreatur auf dem Feld wird dadurch das Schießen vereitelt.\n\nWenn der dunkle Tempel getroffen wurde, lest die **Karte \"Stein auf Stein\"**.\n***\n**Aufgabe:**\nDie Helden müssen die Bedrohung seitens Varkur abwenden. Dazu müssen sie seinen Tempel mit dem Katapult zerstören. Wie immer darf die Rietbüurg nicht von Kreaturen 3 überrannt werden. \n***\n**Der Held mit dem niedrigsten Rang beginnt.**"
+      },
+      {
+        "name": "N",
+        "slug": "n",
+        "subname": "",
+        "type": "end",
+        "text": "",
+        "success": "Die Legende nahm ein **gutes Ende**, wenn... \n...wenn die Burg verteidigt wurde und...\n...der Krahder besiegt wurde.\n\n*Die Helden hatten wieder einmal ihren Fürstenstatus unter Beweis gestellt und Andor war vorerst gerettet. Kurz nachdem der Krahder besiegt wurde, hörten die Angriffe auf die Rietburg auf.*\n*Aber einige Fragen blieben noch ungeklärt. Wieso erzählten die Legenden später, dass alle Helden beim Besuch der Hexe anwesend waren. Hatte denn nicht nur ein Held das Heilkraut zu ihr gebracht? Und dann, seit wann wuchsen im kalten Hadria Trauben für die Weinherstellung? Und schließlich, wo trieb sich schon wieder diese Plaudertasche Ken Dorr herum? Fragen über Fragen, die sicher in anderen Legenden beantwortet werden.*",
+        "failure": "Die Legende nahm ein **böses Ende**, wenn...\n...wenn die Burg nicht verteidigt wurde oder...\n...der Krahder nicht besiegt wurde.\n\n*Die Gefahr über Andor war noch nicht vorüber. Die Kreaturen schöpften durch die Niederlage der Helden neuen Mut.*\n\nTipps:\n* Bogenschützen können gleichzeitig das Katapult bedienen und auf dem Nachbarfeld angreifen.\n* Versuche alle von der Hexe aufgebesserten Brunnen leerzutrinken.\n"
+      },
+      {
+        "name": "Stein auf Stein",
+        "slug": "stein-auf-stein",
+        "subname": "Diese Karte wird gelesen nachdem eine andere Karte dazu auffordert",
+        "type": "custom",
+        "text": "*Der dunkle Tempelerzitterte unter dem Einschlag vom Fundament bis hoch zur Tempelspitze. Aber so schnell war er nicht zu besiegen.*\n\nUm den Tempel komplett zu zerstören brauchtes 3 Treffer. Der erste trifft die Tempelspitze, der zweite die Tempelmitte und der dritte das Fundament. Entfernt das jeweilige Teil und deckt den darunter befindlichen Edelstein auf.\n\n*Der Edelstein zerbarst in seinem eigenen Licht und der Widerschein war in den Wolken von ganz Andor aus zu  sehen. Die Farben der 3 Edelsteine sollte den Aufenthaltsort des Magiers verraten.*\n \nWenn ihr den Tempel komplett zerstört habt, verbleiben nur noch die Edelsteine auf Feld 83 und ihr lest die **Karte \"Getroffene Hundebellen'\".**"
+      },
+      {
+        "name": "Getroffene Hunde bellen",
+        "slug": "getroffene-hunde-bellen",
+        "subname": "Diese Karte wird gelesen nachdem eine andere Karte dazu auffordert",
+        "type": "custom",
+        "text": "*\"Getroffene Hunde bellen\", so spricht der Volksmund. In Andor führten aber die Farben des Magiers zu ihm. Wir haben ihn ja auch nicht selbst getroffen, sondern nur seinen Hauptsitz. Apropos bellen: Trieb sich da nicht auch irgendwo ein Wardrak herum.*\n\nNehmt das Katapult aus dem Spiel.\nAddiert zu den Werten der Edelsteine (Summe) die **Zahl 21** und stellt den **Magier** auf das entsprechende Feld, darunter ein beliebiges **Heilkraut**.\nStellt einen **Wardrak** auf Feld **26**.\n\n*Auch Andors berüchtigster Dieb sah das Licht in den Wolken und zog neue Erkundigungen ein. So führte ihn sein Weg zu Reka. Begierig hörte sie sich Ken Dorrs Geschichten an. Das Heilkraut von dem er sprach weckte ihr Interesse. \"Wenn Varkur es nun gefunden hat, könnte ich einen schönen Trank daraus machen. Die Gefahr um Andorist noch nicht gebannt\", so sinnierte die Hexe. Ken Dorr war aber um nichts dazu zu überreden, es dem Magier abzunehmen. \"Varkur wird das Heilkraut nur im Kampfhergeben\", sprach der vor Angst bleiche Dieb, \"ich gebe den Helden Bescheid\".*\n\nKämpft gegen den dunklen Magier und holt euch das Heilkraut für die Hexe. Der Kampfwert für Varkur ergibt sich wie folgt: Multipliziert die Summe der Stärkewerte der Helden mit\n3 (Beispiel: (2+3+2+2)*3=27) Um den Magier zu bezwingen, muß mindestens sein Kampfwert erreicht werden. Niederlagen werden nicht bestraft.\n\nWenn das Heilkraut bei der Hexe ist, lest die **Karte \"Wasser und Wein\"**."
+      },
+      {
+        "name": "Wasser und Wein",
+        "slug": "wasser-und-wein",
+        "subname": "Diese Karte wird gelesen nachdem eine andere Karte dazu auffordert",
+        "type": "custom",
+        "text": "*\"Danke nochmals für das Heilkraut\", sprach Reka. \"Wusstet ihr übrigens, dass es ganz unterschiedliche Wirkungen auf die Geschöpfe hat?\" Reka schaute in die Runde. \"Auf uns Andori hat es eine belebende Wirkung, Kreaturen dagegen werden davon ganz krank.\" Mit diesen Worten überreichte sie den Helden ein Fläschchen \"Gift\", das sie aus dem Kraut gebraut hatte. Die Helden schauten sich etwas ratlos an. \"Nun gut, ich denke ihr seid soweit, der wirklichen Gefahr ins Auge zu blicken\", unterbrach die Hexe die Stille. \"Ihr müsst den Krahder finden und bezwingen. Er ist es, der die ganzen Kreaturen aussendet. Ich habe auch schon einen Plan, wie ihr ihn findet. Aus den Erzählungen von Ken Dorr habe ich erfahren, dass der Krahder allabendlich in der Taverne sitzt, umhüllt mit Bauern Kleidern, bei einer guten Flasche hadrischen Rotweins. Gebt das Gift der Wirtin Gilda, sie soll es in seinen Trank mischen. Dies sollte ihn im Morgengrauen aus seinem Versteck treiben.\" \"Ich selbst werde in der Zwischenzeit die Brunnen etwas aufbessern\", schmunzelte die Hexe spitzbübig.*\n\nFrische jetzt alle Brunnen auf (selbst wenn ein Held darauf steht oder das Brunnenplättchen aus dem Spiel genommen wurde). Lege ein Sternchen auf jeden Brunnen. Helden, die aus einem aufgebesserten Brunnen trinken, erhalten neben den Willenspunkten **2 Stärkepunkte**. Nach dem Leeren werden die Sternchen wieder entfernt und der Brunnen erfrischt die Helden wie üblich. Bringt das **Gift** zur **Taverne (Feld 72)**. Danach müssen die Helden die Nacht abwarten, damit das Gift im Körper des Krahers seine Wirkung entfaltet. Legt ein Sternchen auf das Brunnensymbol im Sonnenaufgangsfeld und auf die Taverne und lest beim Brunnen auffrischen die **Karte \"Schmerzen im Gebein\".**"
+      },
+      {
+        "name": "Scherzen im Gebein",
+        "slug": "scherzen-im-gebein",
+        "subname": "Diese Karte wird gelesen nachdem eine andere Karte dazu auffordert",
+        "type": "custom",
+        "text": "*Qualvolle Laute wehten von der Marktbrücke zur Burg herüber. Der Krahder hatte sich in der Mine der Schildzwerge versteckt und wand sich jetzt vor Schmerzen draußen im Freien. Kenn Dorr war wieder der erste, der diese Neuigkeit in ganz Andor verbreitete. Die Helden machten sich zum Kampf bereit, um dieser Abscheulichkeit den Todesstoß zu versetzen.*\n\nWürfelt mit einem Heldenwürfel und addiert die **Zahl 40** für die Bestimmung des Feldes für den **Krahder**. Sollte sich beim Einsetzen schon eine Kreatur auf dem Feld befinden, kommt sie aus dem Spiel.\n\nDer Krahder hat **30 Stärkepunkte, 6 Willenspunkte** und würfelt mit **1 schwarzen Würfel**. Wenn er besiegt ist, wird der Erzähler sofort auf den **Buchstaben \"N\"** vorgesetzt."
       }
     ]
   }
