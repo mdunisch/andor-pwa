@@ -2,7 +2,7 @@
   <div>
     <div style="display: flex; flex-wrap: wrap;">
       <ui-button
-        v-for="card in currentLegend.cards.filter(i => i.type ==='letter' || i.type === 'end')"
+        v-for="card in cardsOfCurrentLegendWithoutDuplication().filter(i => i.type === 'letter' || i.type === 'end')"
         :key="card.name"
         :raised="!card.seen"
         size="large"
@@ -13,9 +13,9 @@
         {{ card.name }}
       </ui-button>
     </div>
-    <hr v-if="currentLegend.cards.filter(i => i.type ==='custom').length !== 0" class="trenner">
+    <hr v-if="currentLegend.cards.filter(i => i.type === 'custom').length !== 0" class="trenner">
     <div
-      v-for="card in currentLegend.cards.filter(i => i.type ==='custom')"
+      v-for="card in cardsOfCurrentLegendWithoutDuplication().filter(i => i.type === 'custom')"
       :key="card.name"
       class="customCardHolder"
     >
@@ -68,7 +68,7 @@ export default {
     }
   },
   methods: {
-    handleOpenCard(slug) {
+    handleOpenCard(slug) {  
       this.$router.push(`/${this.$route.params.legendSlug}/${slug}`);
       this.$refs["cardmodal"].open();
       this.$store.commit("seeCard");
@@ -77,7 +77,27 @@ export default {
       if(this.currentCard){
         this.$router.go(-1);
       }
-    }
+    },
+	cardsOfCurrentLegendWithoutDuplication(){
+		// if variants available, select random one of possible variants; variants are recognized by name
+		var originalCards = this.currentLegend.cards;
+		var names = [];
+		var cards = [];
+		originalCards.forEach(function(card){ 
+			var arrayCards = originalCards.filter(i => i.name === card.name);
+			var numVariations = arrayCards.length;
+			if(numVariations > 1 && !names.includes(card.name)){
+				names.push(card.name);
+				cards.push(arrayCards[Math.floor(Math.random() * arrayCards.length)]);
+			}else if(numVariations === 1){
+				cards.push(card);
+			}
+		});
+		return cards
+	},
+	randomIntFromInterval(min, max) {
+		return Math.floor(Math.random() * (max - min + 1) + min);
+	},
   }
 };
 </script>
